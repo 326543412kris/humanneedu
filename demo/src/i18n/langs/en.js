@@ -1,10 +1,11 @@
 module.exports = {
   message: {
-    title: 'humane ' + '<p>' +
+    title: 'humane '+
       'education'
   },
   menu: {
-    aboutUs: 'About Us'
+    aboutUs: 'About Us',
+    home: 'HOME'
   },
   layer: {
     tips: 'Warn Tips',

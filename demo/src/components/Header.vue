@@ -2,45 +2,54 @@
   <div class="hello">
     <header style="float: left"><img src="@/assets/logo.png" style="width: 10%; float: left">
       <h2 style="float: left">{{ $t("message.title") }}</h2></header>
-    <span style="float: right">
-      <el-col>
-          <el-select style="width: 10px; display: inline-block">{{ $t("menu.aboutUs") }}</el-select>
-      </el-col>
-      <li>
+    <el-menu router style="float: right" class="el-icon-document">
+
+      <el-submenu index="1">
+        <template slot="title"><i class="el-icon-document">资产概况</i> </template>
+        <el-menu-item-group>
+          <el-menu-item index="/assets/list">资产列表</el-menu-item>
+          <el-menu-item index="/assets/accessory">配件列表</el-menu-item>
+        </el-menu-item-group>
+      </el-submenu>
+
+
+      <el-menu-item><router-link to="/home" >{{ $t("menu.home") }}</router-link></el-menu-item>
+      <el-menu-item><router-link to="/aboutUs">{{ $t("menu.aboutUs") }}</router-link></el-menu-item>
+      <el-menu-item>
         <a
           href="https://forum.vuejs.org"
           target="_blank"
         >
           Forum
         </a>
-      </li>
-      <li>
+      </el-menu-item>
+      <el-menu-item>
         <a
           href="https://chat.vuejs.org"
           target="_blank"
         >
           Community Chat
         </a>
-      </li>
-      <li>
+      </el-menu-item>
+      <el-menu-item>
         <a
           href="https://twitter.com/vuejs"
           target="_blank"
         >
           Twitter
         </a>
-      </li>
-      <li>
+      </el-menu-item>
+      <el-menu-item>
         <a
           href="http://vuejs-templates.github.io/webpack/"
           target="_blank"
         >
           Docs for This Template
         </a>
-      </li>
-      <li  @click="changeLocale"
-                onmouseover="this.style.cursor='pointer'"><u>中文/EN</u></li>
-    </span>
+      </el-menu-item>
+      <el-menu-item  @click="changeLocale"
+                onmouseover="this.style.cursor='pointer'"><u>中文/EN</u></el-menu-item>
+    </el-menu>
   </div>
 </template>
 

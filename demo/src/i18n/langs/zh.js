@@ -3,7 +3,8 @@ module.exports = {
     title: '爱意教育'
   },
   menu: {
-    aboutUs: '关于我们'
+    aboutUs: '关于我们',
+    home: '首页'
   },
   layer: {
     tips: '提示',
