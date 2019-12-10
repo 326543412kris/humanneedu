@@ -1,11 +1,16 @@
 module.exports = {
   message: {
-    title: 'humane '+
-      'education'
+    title: 'Humane '+
+      'Education'
   },
   menu: {
+    statusAndMission: 'Status And Mission',
     aboutUs: 'About Us',
-    home: 'HOME'
+    home: 'HOME',
+    charity: 'Charity Education',
+    children: 'Children and youth courses',
+    picture: 'Charity Picture Book',
+    educators: 'Charity Educators'
   },
   layer: {
     tips: 'Warn Tips',

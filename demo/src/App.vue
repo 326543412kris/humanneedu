@@ -1,7 +1,7 @@
 <template>
   <div id="app">
     <app-header></app-header>
-    <router-view/>
+    <router-view style="margin-top: 10%"/>
   </div>
 </template>
 
