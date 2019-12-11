@@ -1,31 +1,35 @@
 <template>
   <div class="hello">
-    <header style="position: fixed;width: 100%">
-      <div style="width: 4%;float: left">
+    <header style="position: fixed;width: 100%;background-color: white">
+      <div style="width: 4%; float:left;">
         <img src="@/assets/logo.png" style="width: 100%;float: left;height: 100%;">
       </div>
-      <div style="width: 26%;float: left;text-align: left;">
-        <h2 style="margin: auto;padding: 17px">{{ $t("message.title") }}</h2>
+      <div style="width: 26%;float: left;text-align: left;cursor:pointer;" @click="toHome">
+        <h2 style="margin: auto;padding: 17px;color: #48b78f" >{{ $t("message.title") }}</h2>
       </div>
       <div style="width: 70%;float: right">
+
         <el-menu router class="el-menu-demo" style="float: right"
+                 text-color="#000"  active-text-color="#48b78f"
                  :default-active="activeIndex" mode="horizontal" @select="handleSelect">
           <el-menu-item index="home">{{ $t("menu.home") }}</el-menu-item>
-          <el-submenu index="2">
+          <el-submenu index="aboutUs">
             <template slot="title">{{ $t("menu.aboutUs") }}</template>
-            <el-menu-item index="aboutUs">{{ $t("menu.statusAndMission") }}</el-menu-item>
-            <el-menu-item index="aboutUs">{{ $t("menu.charity") }}</el-menu-item>
-            <el-menu-item index="2-3">asdasdsdsadsad3</el-menu-item>
+            <el-menu-item index="statusAndMission">{{ $t("menu.statusAndMission") }}</el-menu-item>
+            <el-menu-item index="charity">{{ $t("menu.charity") }}</el-menu-item>
+            <el-menu-item index="doingNow">{{ $t("menu.doingNow") }}</el-menu-item>
+            <el-menu-item index="coreTeam">{{ $t("menu.coreTeam") }}</el-menu-item>
+            <el-menu-item index="natureSchool">{{ $t("menu.natureSchool") }}</el-menu-item>
           </el-submenu>
-          <el-menu-item>
+          <el-submenu>
             <template slot="title">{{ $t("menu.children") }}</template>
-          </el-menu-item>
-          <el-menu-item>
+          </el-submenu>
+          <el-submenu>
             <template slot="title">{{ $t("menu.picture") }}</template>
-          </el-menu-item>
-          <el-menu-item>
+          </el-submenu>
+          <el-submenu>
             <template slot="title">{{ $t("menu.educators") }}</template>
-          </el-menu-item>
+          </el-submenu>
           <el-menu-item @click="changeLocale"
                         onmouseover="this.style.cursor='pointer'"><u>中文/EN</u></el-menu-item>
         </el-menu>
@@ -43,6 +47,9 @@
             }
         },
         methods: {
+            toHome() {
+                this.$router.push("/home");
+            },
             handleSelect(key, keyPath) {
                 console.log(key, keyPath);
                 if (key === 1) {
@@ -78,21 +85,6 @@
 
   h1, h2 {
     font-weight: normal;
-  }
-
-  ul {
-    list-style-type: none;
-    padding: 0;
-    margin: 0;
-  }
-
-  li {
-    display: inline-block;
-    margin: 0 10px;
-  }
-
-  a {
-    color: black;
   }
 
   header {

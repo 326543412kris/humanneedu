@@ -1,7 +1,7 @@
 <template>
   <div id="app">
-    <app-header></app-header>
-    <router-view style="margin-top: 10%"/>
+    <app-header style="z-index:1"></app-header>
+    <router-view style="z-index: -1"/>
   </div>
 </template>
 

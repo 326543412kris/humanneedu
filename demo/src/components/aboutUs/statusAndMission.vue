@@ -1,14 +1,14 @@
 <template>
   <div style="z-index: -1">
-    <el-card class="box-card" shadow="hover" id="green">Who we are</el-card>
     <el-card class="box-card" shadow="hover" id="white">Who we are</el-card>
+    <el-card class="box-card" shadow="hover" id="green">Who we are</el-card>
     <el-card class="box-card" shadow="hover" id="lightGreen">Who are you</el-card>
   </div>
 </template>
 
 <script>
     export default {
-        name: "home"
+        name: "statusAndMission"
     }
 </script>
 
@@ -25,7 +25,7 @@
   }
 
   #green {
-    margin: 0px auto;
+    margin: 50px auto;
     text-align: left;
     font-size: 20px;
     background-color: #48b78f;
@@ -41,10 +41,9 @@
   }
 
   #white {
-    margin: 50px auto;
+    margin: 0px auto;
     text-align: center;
     background-color: #cae4c1;
     color: #000000;
   }
-
 </style>

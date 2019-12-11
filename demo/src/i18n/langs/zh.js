@@ -9,8 +9,10 @@ module.exports = {
     charity: '什么是仁爱教育',
     children: '儿童青少年课程',
     picture: '仁爱绘本',
-    educators: '成为仁爱教育者'
-
+    educators: '成为仁爱教育者',
+    natureSchool: '爱意自然学校',
+    doingNow: '我们的行动',
+    coreTeam: '核心团队',
 
   },
   layer: {

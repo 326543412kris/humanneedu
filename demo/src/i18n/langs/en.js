@@ -10,7 +10,10 @@ module.exports = {
     charity: 'Charity Education',
     children: 'Children and youth courses',
     picture: 'Charity Picture Book',
-    educators: 'Charity Educators'
+    educators: 'Charity Educators',
+    natureSchool: 'Nature School',
+    doingNow: 'Doing Now',
+    coreTeam: 'Core Team',
   },
   layer: {
     tips: 'Warn Tips',

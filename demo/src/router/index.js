@@ -1,17 +1,23 @@
 import Vue from 'vue'
 import Router from 'vue-router'
-import Header from '@/components/Header'
 import home from '@/components/home'
-import aboutUs from '@/components/aboutUs'
+import aboutUs from '@/components/aboutUs/aboutUs'
+import statusAndMission from '@/components/aboutUs/statusAndMission'
+import charity from '@/components/aboutUs/charity'
 Vue.use(Router)
 
 export default new Router({
   routes: [
-    // {
-    //   path: '/',
-    //   name: 'Header',
-    //   component: Header
-    // },
+    {
+      path: '/charity',
+      name: 'charity',
+      component: charity
+    },
+    {
+      path: '/statusAndMission',
+      name: 'statusAndMission',
+      component: statusAndMission
+    },
     {
       path: '/home',
       name: 'home',

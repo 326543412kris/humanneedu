@@ -9,12 +9,16 @@ import 'element-ui/lib/theme-chalk/index.css'
 import i18n from './i18n/i18n'
 import Viewer from 'v-viewer'
 import 'viewerjs/dist/viewer.css'
+import Router from 'vue-router'
 
 Vue.use(Viewer);
 Vue.use(ElementUI);
 Vue.use(VueI18n);
 Vue.config.productionTip = false;
-
+const originalPush = Router.prototype.push;
+Router.prototype.push = function push(location) {
+  return originalPush.call(this, location).catch(err => err)
+};
 /* eslint-disable no-new */
 new Vue({
   el: '#app',
