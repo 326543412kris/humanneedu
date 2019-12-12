@@ -21,14 +21,28 @@
             <el-menu-item index="coreTeam">{{ $t("menu.coreTeam") }}</el-menu-item>
             <el-menu-item index="natureSchool">{{ $t("menu.natureSchool") }}</el-menu-item>
           </el-submenu>
-          <el-submenu>
+          <el-submenu index="children">
             <template slot="title">{{ $t("menu.children") }}</template>
+            <el-menu-item index="atlas">{{ $t("children.atlas") }}</el-menu-item>
+            <el-menu-item index="earlyPicLesson">{{ $t("children.earlyPicLesson") }}</el-menu-item>
+            <el-menu-item index="friendlyLesson">{{ $t("children.friendlyLesson") }}</el-menu-item>
+            <el-menu-item index="leadershipLesson">{{ $t("children.leadershipLesson") }}</el-menu-item>
+            <el-menu-item index="gardenSchool">{{ $t("children.gardenSchool") }}</el-menu-item>
+            <el-menu-item index="greenPhilosophy">{{ $t("children.greenPhilosophy") }}</el-menu-item>
+            <el-menu-item index="guardiansOfNature">{{ $t("children.guardiansOfNature") }}</el-menu-item>
           </el-submenu>
-          <el-submenu>
+          <el-submenu index="picture">
             <template slot="title">{{ $t("menu.picture") }}</template>
+            <el-menu-item index="info">{{ $t("picture.info") }}</el-menu-item>
+            <el-menu-item index="preface">{{ $t("picture.preface") }}</el-menu-item>
+            <el-menu-item index="courseCompass">{{ $t("picture.courseCompass") }}</el-menu-item>
           </el-submenu>
-          <el-submenu>
+          <el-submenu index="educators">
             <template slot="title">{{ $t("menu.educators") }}</template>
+            <el-menu-item index="growthSystem">{{ $t("educators.growthSystem") }}</el-menu-item>
+            <el-menu-item index="certificate">{{ $t("educators.certificate") }}</el-menu-item>
+            <el-menu-item index="workshop">{{ $t("educators.workshop") }}</el-menu-item>
+            <el-menu-item index="voiceSalon">{{ $t("educators.voiceSalon") }}</el-menu-item>
           </el-submenu>
           <el-menu-item @click="changeLocale"
                         onmouseover="this.style.cursor='pointer'"><u>中文/EN</u></el-menu-item>
