@@ -45,5 +45,6 @@
     text-align: center;
     background-color: #88bf73;
     color: #000000;
+    background-image: url("./../../assets/1.jpg");
   }
 </style>

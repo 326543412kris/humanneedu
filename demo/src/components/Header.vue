@@ -10,7 +10,7 @@
       <div style="width: 70%;float: right">
 
         <el-menu router class="el-menu-demo" style="float: right"
-                 text-color="#000"  active-text-color="#48b78f"
+                  active-text-color="#48b78f"
                  :default-active="activeIndex" mode="horizontal" @select="handleSelect">
           <el-menu-item index="home">{{ $t("menu.home") }}</el-menu-item>
           <el-submenu index="aboutUs">

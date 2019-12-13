@@ -1,6 +1,6 @@
 <template>
   <div id="app">
-    <app-header style="z-index:1"></app-header>
+    <app-header style="z-index:9999"></app-header>
     <router-view style="z-index: -1"/>
   </div>
 </template>
