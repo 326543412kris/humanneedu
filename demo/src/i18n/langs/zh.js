@@ -1,6 +1,7 @@
 module.exports = {
   message: {
-    title: '爱意教育'
+    title: '爱意教育',
+    logo: '@/assets/logo.png'
   },
   menu: {
     statusAndMission: '现状与使命',
@@ -41,5 +42,8 @@ module.exports = {
   button: {
     ok: '确认',
     cancel: '取消',
-  }
-}
+  },
+  title: {
+    aboutUs: '我们正在做的事...',
+  },
+};

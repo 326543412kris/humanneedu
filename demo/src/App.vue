@@ -1,16 +1,24 @@
 <template>
   <div id="app">
-    <app-header style="z-index:9999"></app-header>
+    <app-header style="z-index:1"></app-header>
     <router-view style="z-index: -1"/>
+    <app-footer style="margin-top: 250px"></app-footer>
   </div>
 </template>
 
 <script>
   import Header from './components/Header';
+  import AppFooter from "./components/Footer";
   export default {
   name: 'App',
   components: {
+    'app-footer':AppFooter,
     'app-header':Header,
+  },
+  mounted () {
+      this.$router.afterEach((to, from, next) => {
+          window.scrollTo(0, 0)
+      })
   },
 }
 </script>

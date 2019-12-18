@@ -1,7 +1,8 @@
 module.exports = {
   message: {
-    title: 'Humane '+
-      'Education'
+    title: 'REAL '+
+      'Education',
+    logo: '@/assets/logoe.png'
   },
   menu: {
     statusAndMission: 'Status And Mission',
@@ -43,4 +44,7 @@ module.exports = {
     ok: 'OK',
     cancel: 'Quit',
   },
-}
+  title: {
+    aboutUs: 'What are we doing ?',
+  },
+};

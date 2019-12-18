@@ -1,7 +1,7 @@
 <template>
   <div style="z-index: -1">
     <el-card class="box-card" shadow="hover" id="green">
-      <div @click="toStatus" class="textTitle">Who we are</div>
+      <div @click="toStatus" class="textTitle">{{ $t("title.aboutUs") }}</div>
     </el-card>
     <el-card class="box-card" shadow="hover" id="white">
       <div @click="toStatus" class="textTitle">Who we are</div>
@@ -26,14 +26,17 @@
 
 <style scoped>
   .box-card:hover {
-    -webkit-transform: scale(1.01);
-    z-index: -3;
+    /*-webkit-transform: scale(1.01);*/
+    z-index: -1;
+    box-shadow:10px 20px 20px #ccc;
   }
 
   .box-card {
-    width: 91%;
-    height: 500px;
+    width: 98%;
+    height: 550px;
     z-index: -2;
+    border-radius:10px;
+    box-shadow:10px 10px 5px #ccc;
   }
 
   #green {
@@ -61,6 +64,7 @@
   }
 
   .textTitle {
+    cursor:pointer;
     margin: 10% 50% auto auto;
     font-size: 50px;
   }

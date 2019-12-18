@@ -1,10 +1,11 @@
 <template>
   <div class="hello">
     <header style="position: fixed;width: 100%;background-color: white">
-      <div style="width: 4%; float:left;">
-        <img src="@/assets/logo.png" style="width: 100%;float: left;height: 100%;">
+      <div style="width: 12%; float:left;">
+        <img v-if="this.$i18n.locale === 'en'" src="@/assets/logoe.png" style="width: 100%;float: left;height: 100%;">
+        <img v-else src="../../src/assets/logo.png" style="width: 100%;float: left;height: 100%;">
       </div>
-      <div style="width: 26%;float: left;text-align: left;cursor:pointer;" @click="toHome">
+      <div style="width: 18%;float: left;text-align: left;cursor:pointer;" @click="toHome">
         <h2 style="margin: auto;padding: 17px;color: #48b78f" >{{ $t("message.title") }}</h2>
       </div>
       <div style="width: 70%;float: right">
@@ -77,7 +78,7 @@
                     type: 'warning'
                 }).then(() => {
                     let locale = this.$i18n.locale;
-                    locale === 'zh' ? this.$i18n.locale = 'en' : this.$i18n.locale = 'zh'
+                    locale === 'zh' ? this.$i18n.locale = 'en' : this.$i18n.locale = 'zh';
                 }).catch(() => {
                     this.$message({
                         type: 'info',
