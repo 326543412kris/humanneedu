@@ -45,6 +45,6 @@ module.exports = {
     cancel: 'Quit',
   },
   title: {
-    aboutUs: 'What are we doing ?',
+    aboutUs: 'What we are doing ?',
   },
 };

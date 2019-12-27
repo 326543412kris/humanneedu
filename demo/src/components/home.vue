@@ -18,6 +18,7 @@
         methods: {
             toStatus() {
                 this.$router.push("/statusAndMission");
+                window.location.reload();
             },
         }
     }
@@ -26,13 +27,12 @@
 
 <style scoped>
   .box-card:hover {
-    /*-webkit-transform: scale(1.01);*/
     z-index: -1;
     box-shadow:10px 20px 20px #ccc;
   }
 
   .box-card {
-    width: 98%;
+    width: 92%;
     height: 550px;
     z-index: -2;
     border-radius:10px;
@@ -40,7 +40,8 @@
   }
 
   #green {
-    background-image: url("./../assets/2.jpg");
+    background-image: url("./../assets/bg12.jpg");
+    background-size: cover;
     margin: 0px auto;
     text-align: center;
     background-color: #48b78f;
@@ -48,7 +49,8 @@
   }
 
   #lightGreen {
-    background-image: url("./../assets/4.jpg");
+    background-image: url("./../assets/bg14.jpg");
+    background-size: cover;
     margin: 50px auto;
     text-align: center;
     background-color: #48b78f;
@@ -56,7 +58,8 @@
   }
 
   #white {
-    background-image: url("./../assets/1.jpg");
+    background-image: url("./../assets/bg11.jpg");
+    background-size: 100% 120%;
     margin: 50px auto;
     text-align: center;
     background-color: #cae4c1;

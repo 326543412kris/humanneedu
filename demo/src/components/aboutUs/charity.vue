@@ -14,14 +14,16 @@
 
 <style scoped>
   .box-card:hover {
-    -webkit-transform: scale(1.01);
-    z-index: -2;
+    z-index: -1;
+    box-shadow:10px 20px 20px #ccc;
   }
 
   .box-card {
-    width: 91%;
-    height: 500px;
-    z-index: -1;
+    width: 92%;
+    height: 550px;
+    z-index: -2;
+    border-radius:10px;
+    box-shadow:10px 10px 5px #ccc;
   }
 
   #green {

@@ -9,7 +9,6 @@
         <h2 style="margin: auto;padding: 17px;color: #48b78f" >{{ $t("message.title") }}</h2>
       </div>
       <div style="width: 70%;float: right">
-
         <el-menu router class="el-menu-demo" style="float: right"
                   active-text-color="#48b78f"
                  :default-active="activeIndex" mode="horizontal" @select="handleSelect">
@@ -34,9 +33,8 @@
           </el-submenu>
           <el-submenu index="picture">
             <template slot="title">{{ $t("menu.picture") }}</template>
-            <el-menu-item index="info">{{ $t("picture.info") }}</el-menu-item>
             <el-menu-item index="preface">{{ $t("picture.preface") }}</el-menu-item>
-            <el-menu-item index="courseCompass">{{ $t("picture.courseCompass") }}</el-menu-item>
+            <el-menu-item index="courseCompass">{{ $t("picture.info") }}</el-menu-item>
           </el-submenu>
           <el-submenu index="educators">
             <template slot="title">{{ $t("menu.educators") }}</template>
@@ -58,15 +56,16 @@
         name: 'Header',
         data() {
             return {
-                activeIndex: 'home',
+              activeIndex: "home"
             }
         },
         methods: {
             toHome() {
                 this.$router.push("/home");
+                window.location.reload();
             },
             handleSelect(key, keyPath) {
-                console.log(key, keyPath);
+                this.activeIndex = key;
                 if (key === 1) {
                     this.$router.push("/home");
                 }
@@ -85,7 +84,10 @@
                     })
                 })
             }
-        }
+        },
+        mounted() {
+            this.activeIndex = this.$route.name;
+        },
     }
 </script>
 

@@ -25,8 +25,8 @@ module.exports = {
     guardiansOfNature: '大自然守护者®系列营地课程',
   },
   educators: {
-    growthSystem: '成长体系',
-    certificate: '证书课程',
+    growthSystem: '成为一名仁爱教育者',
+    certificate: '专业培训和认证课程',
     workshop: '工作坊',
     voiceSalon: 'Voice沙龙',
   },
@@ -46,4 +46,11 @@ module.exports = {
   title: {
     aboutUs: '我们正在做的事...',
   },
+  content: {
+    children:{
+      // earlyPicLesson1: earlyPicLesson.content1,
+      // earlyPicLesson2: earlyPicLesson.content2,
+    }
+  },
 };
+

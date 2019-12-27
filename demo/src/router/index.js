@@ -4,6 +4,7 @@ import home from '@/components/home'
 import aboutUs from '@/components/aboutUs/aboutUs'
 import statusAndMission from '@/components/aboutUs/statusAndMission'
 import charity from '@/components/aboutUs/charity'
+import earlyPicLesson from '@/components/children/earlyPicLesson'
 Vue.use(Router)
 
 export default new Router({
@@ -27,6 +28,11 @@ export default new Router({
       path: '/aboutUs',
       name: 'aboutUs',
       component: aboutUs
+    },
+    {
+      path: '/earlyPicLesson',
+      name: 'earlyPicLesson',
+      component: earlyPicLesson
     },
   ]
 })
