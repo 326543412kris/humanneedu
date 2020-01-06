@@ -15,6 +15,7 @@ module.exports = {
     natureSchool: 'Nature School',
     doingNow: 'Doing Now',
     coreTeam: 'Core Team',
+    lang:"中文",
   },
   children: {
     atlas: 'Atlas',

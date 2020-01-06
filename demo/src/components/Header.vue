@@ -44,7 +44,7 @@
             <el-menu-item index="voiceSalon">{{ $t("educators.voiceSalon") }}</el-menu-item>
           </el-submenu>
           <el-menu-item @click="changeLocale"
-                        onmouseover="this.style.cursor='pointer'"><u>中文/EN</u></el-menu-item>
+                        onmouseover="this.style.cursor='pointer'"><u>{{ $t("menu.lang") }}</u></el-menu-item>
         </el-menu>
       </div>
     </header>

@@ -17,6 +17,30 @@
         <p class="text">{{ $t("content.children.earlyPicLesson7") }}</p>
         <p class="title" style="margin-top: 0px">{{ $t("content.children.earlyPicLessonTitle5") }}</p>
         <p class="title" style="margin-top: 0px">{{ $t("content.children.earlyPicLessonTitle6") }}</p>
+        <img src="@/assets/image001.png">
+        <img src="@/assets/lesson01.png" style="width: 100%">
+        <p class="title" style="margin-top: 0px">{{ $t("content.children.earlyPicLessonTitle7") }}</p>
+        <img src="@/assets/image002.png">
+        <img src="@/assets/lesson02.png" style="width: 100%">
+        <p class="title" style="margin-top: 0px">{{ $t("content.children.earlyPicLessonTitle8") }}</p>
+        <img src="@/assets/image003.png">
+        <img src="@/assets/lesson03.png" style="width: 100%">
+        <p class="title" style="margin-top: 0px">{{ $t("content.children.earlyPicLessonTitle9") }}</p>
+        <img src="@/assets/image004.png">
+        <img src="@/assets/lesson04.png" style="width: 100%">
+        <p class="title" style="margin-top: 0px">{{ $t("content.children.earlyPicLessonTitle10") }}</p>
+        <img src="@/assets/image005.png">
+        <img src="@/assets/lesson05.png" style="width: 100%">
+        <p class="title" style="margin-top: 0px">{{ $t("content.children.earlyPicLessonTitle11") }}</p>
+        <img src="@/assets/image006.png">
+        <img src="@/assets/lesson061.png" style="width: 100%">
+        <img src="@/assets/lesson062.png" style="width: 100%">
+        <p class="title" style="margin-top: 0px">{{ $t("content.children.earlyPicLessonTitle12") }}</p>
+        <img src="@/assets/image007.png">
+        <img src="@/assets/lesson07.png" style="width: 100%">
+        <p class="title" style="margin-top: 0px">{{ $t("content.children.earlyPicLessonTitle13") }}</p>
+        <img src="@/assets/image008.jpg">
+        <img src="@/assets/lesson08.png" style="width: 100%">
       </el-main>
     </el-container>
   </div>
@@ -52,11 +76,10 @@
     color: white;
     font-size: large;
     line-height: 28px;
-    font-family: "Microsoft YaHei";
     letter-spacing: 0px;
     background-color: #48b78f;
     margin: 50px auto;
-    width: 92%;
+    width: 70%;
     z-index: -2;
     border-radius:10px;
     box-shadow:10px 10px 10px 10px #ccc;
