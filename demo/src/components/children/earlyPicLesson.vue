@@ -41,6 +41,13 @@
         <p class="title" style="margin-top: 0px">{{ $t("content.children.earlyPicLessonTitle13") }}</p>
         <img src="@/assets/image008.jpg">
         <img src="@/assets/lesson08.png" style="width: 100%">
+        <p class="title1" style="margin-top: 0px">{{ $t("content.children.leaderTitle4") }}</p>
+        <p><a @click="toAtlas"><i>{{ $t("content.children.atlasLink7") }}</i></a></p>
+        <p><a @click="toFriendly"><i>{{ $t("content.children.atlasLink2") }}</i></a></p>
+        <p><a @click="toLeader"><i>{{ $t("content.children.atlasLink3") }}</i></a></p>
+        <p><a @click="toGarden"><i>{{ $t("content.children.atlasLink4") }}</i></a></p>
+        <p><a @click="toGreen"><i>{{ $t("content.children.atlasLink5") }}</i></a></p>
+        <p><a @click="toNature"><i>{{ $t("content.children.atlasLink6") }}</i></a></p>
       </el-main>
     </el-container>
   </div>
@@ -50,16 +57,36 @@
     export default {
         name: "earlyPicLesson",
         methods: {
-            toFrendly() {
-                this.$router.push("/statusAndMission");
-                window.location.reload();
-            },
+          toAtlas() {
+            this.$router.push("/atlas");
+            window.location.reload();
+          },
+          toFriendly() {
+            this.$router.push("/friendlyLesson");
+            window.location.reload();
+          },
+          toLeader() {
+            this.$router.push("/leadershipLesson");
+            window.location.reload();
+          },
+          toGarden() {
+            this.$router.push("/gardenSchool");
+            window.location.reload();
+          },
+          toGreen() {
+            this.$router.push("/greenPhilosophy");
+            window.location.reload();
+          },
+          toNature() {
+            this.$router.push("/guardiansOfNature");
+            window.location.reload();
+          },
         }
     }
 </script>
 
 <style scoped>
-  a {color: lightblue;}
+  a {color: cornflowerblue;}
   a:hover {color:lightblue;cursor:pointer;text-decoration:underline;}
   a:active {color:white;}
   .title{
@@ -83,5 +110,10 @@
     z-index: -2;
     border-radius:10px;
     box-shadow:10px 10px 10px 10px #ccc;
+  }
+  .title1{
+    padding: 20px;
+    text-align: center;
+    font-size: x-large;
   }
 </style>

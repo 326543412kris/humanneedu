@@ -1,8 +1,16 @@
 <template>
   <div style="z-index: -1">
-    <el-card class="box-card" shadow="hover" id="white">Who we are</el-card>
-    <el-card class="box-card" shadow="hover" id="green">Who we are</el-card>
-    <el-card class="box-card" shadow="hover" id="lightGreen">Who are you</el-card>
+    <el-card class="content" shadow="hover" id="white">
+      <p class="title" style="margin-top: 10px">{{ $t("content.aboutUs.statusTitle1") }}</p>
+      <p class="text" style="margin-top: 10px">{{ $t("content.aboutUs.status1") }}</p>
+    </el-card>
+    <el-card class="content" shadow="hover" id="green">
+      <p class="title" style="margin-top: 10px">{{ $t("content.aboutUs.statusTitle2") }}</p>
+      <p class="text" style="margin-top: 10px">{{ $t("content.aboutUs.status2") }}</p>
+      <p class="text" style="margin-top: 10px">{{ $t("content.aboutUs.status3") }}</p>
+      <p class="text" style="margin-top: 10px">{{ $t("content.aboutUs.status4") }}</p>
+      <img src="@/assets/RealValue.jpg" style="width: 80%;margin-left: 10%">
+    </el-card>
   </div>
 </template>
 
@@ -47,5 +55,27 @@
     text-align: center;
     background-color: #cae4c1;
     color: #000000;
+  }
+  .title{
+    padding: 20px;
+    text-align: center;
+    font-size: x-large;
+  }
+  .text{
+    text-indent: 32px;
+    text-align: left;
+    padding: 10px;
+  }
+  .content {
+    color: white;
+    font-size: large;
+    line-height: 28px;
+    letter-spacing: 0px;
+    background-color: #48b78f;
+    margin: 50px auto;
+    width: 70%;
+    z-index: -2;
+    border-radius:10px;
+    box-shadow:10px 10px 10px 10px #ccc;
   }
 </style>
