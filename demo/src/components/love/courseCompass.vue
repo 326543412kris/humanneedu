@@ -23,7 +23,7 @@
         <p class="text">{{ $t("content.love.course.text9") }}</p>
         <p class="text"><img src="@/assets/image007.png" style="width: 20%;padding-right: 40px">{{ $t("content.love.course.text91") }}</p>
         <p class="text">{{ $t("content.love.course.text10") }}</p>
-        <p class="text"><a @click="handleEdit('rabbit.doc')"><img src="@/assets/image008.jpg" style="width: 20%;padding-right: 40px"></a>{{ $t("content.love.course.text101") }}</p>
+        <p class="text"><a @click="handleEdit('rabbit.doc ')"><img src="@/assets/image008.jpg" style="width: 20%;padding-right: 40px"></a>{{ $t("content.love.course.text101") }}</p>
       </el-main>
     </el-container>
   </div>
