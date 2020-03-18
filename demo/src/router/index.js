@@ -16,6 +16,16 @@ import guardiansOfNature from '@/components/children/guardiansOfNature'
 import gardenSchool from '@/components/children/gardenSchool'
 import preface from '@/components/love/preface'
 import course from '@/components/love/courseCompass'
+import forgottenRabbit from '@/components/picBook/forgottenRabbit'
+import max from '@/components/picBook/max'
+import raindog from '@/components/picBook/raindog'
+import raincat from '@/components/picBook/raincat'
+import buddy from '@/components/picBook/buddy'
+import ready from '@/components/picBook/ready'
+import koko from '@/components/picBook/koko'
+import cookie from '@/components/picBook/cookie'
+import fur from '@/components/picBook/fur'
+import dakota from '@/components/picBook/dakota'
 
 Vue.use(Router)
 
@@ -25,6 +35,56 @@ export default new Router({
       path: '/courseCompass',
       name: 'course',
       component: course
+    },
+    {
+      path: '/max',
+      name: 'max',
+      component: max
+    },
+    {
+      path: '/raindog',
+      name: 'raindog',
+      component: raindog
+    },
+    {
+      path: '/raincat',
+      name: 'raincat',
+      component: raincat
+    },
+    {
+      path: '/buddy',
+      name: 'buddy',
+      component: buddy
+    },
+    {
+      path: '/ready',
+      name: 'ready',
+      component: ready
+    },
+    {
+      path: '/koko',
+      name: 'koko',
+      component: koko
+    },
+    {
+      path: '/cookie',
+      name: 'cookie',
+      component: cookie
+    },
+    {
+      path: '/fur',
+      name: 'fur',
+      component: fur
+    },
+    {
+      path: '/dakota',
+      name: 'dakota',
+      component: dakota
+    },
+    {
+      path: '/forgottenRabbit',
+      name: 'forgottenRabbit',
+      component: forgottenRabbit
     },
     {
       path: '/growthSystem',
