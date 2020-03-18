@@ -7,7 +7,7 @@
         <p class="text">{{ $t("content.children.earlyPicLesson1") }}</p>
         <p class="text">
           {{ $t("content.children.earlyPicLesson2") }}
-          <a @click="toFrendly"><b>{{ $t("content.children.earlyPicLesson3") }}</b></a>
+          <a @click="toPic"><b>{{ $t("content.children.earlyPicLesson3") }}</b></a>
           {{ $t("content.children.earlyPicLesson4") }}
         </p>
         <p class="title" style="margin-top: 10px">{{ $t("content.children.earlyPicLessonTitle3") }}</p>
@@ -16,30 +16,30 @@
         <p class="text">{{ $t("content.children.earlyPicLesson6") }}</p>
         <p class="text">{{ $t("content.children.earlyPicLesson7") }}</p>
         <p class="title" style="margin-top: 0px">{{ $t("content.children.earlyPicLessonTitle5") }}</p>
-        <p class="title" style="margin-top: 0px">{{ $t("content.children.earlyPicLessonTitle6") }}</p>
-        <img src="@/assets/image001.png">
+        <a @click="toCookie"><p class="title" style="margin-top: 0px">{{ $t("content.children.earlyPicLessonTitle6") }}</p>
+          <img src="@/assets/image001.png"></a>
         <img src="@/assets/lesson01.png" style="width: 100%">
-        <p class="title" style="margin-top: 0px">{{ $t("content.children.earlyPicLessonTitle7") }}</p>
-        <img src="@/assets/image002.png">
+        <a @click="toFur"><p class="title" style="margin-top: 0px">{{ $t("content.children.earlyPicLessonTitle7") }}</p>
+          <img src="@/assets/image002.png"></a>
         <img src="@/assets/lesson02.png" style="width: 100%">
-        <p class="title" style="margin-top: 0px">{{ $t("content.children.earlyPicLessonTitle8") }}</p>
-        <img src="@/assets/image003.png">
+        <a @click="toReady"><p class="title" style="margin-top: 0px">{{ $t("content.children.earlyPicLessonTitle8") }}</p>
+          <img src="@/assets/image003.png"></a>
         <img src="@/assets/lesson03.png" style="width: 100%">
-        <p class="title" style="margin-top: 0px">{{ $t("content.children.earlyPicLessonTitle9") }}</p>
-        <img src="@/assets/image004.png">
+        <a @click="toBuddy"><p class="title" style="margin-top: 0px">{{ $t("content.children.earlyPicLessonTitle9") }}</p>
+          <img src="@/assets/image004.png"></a>
         <img src="@/assets/lesson04.png" style="width: 100%">
-        <p class="title" style="margin-top: 0px">{{ $t("content.children.earlyPicLessonTitle10") }}</p>
-        <img src="@/assets/image005.png">
+        <a @click="toRainCat"><p class="title" style="margin-top: 0px">{{ $t("content.children.earlyPicLessonTitle10") }}</p>
+          <img src="@/assets/image005.png"></a>
         <img src="@/assets/lesson05.png" style="width: 100%">
-        <p class="title" style="margin-top: 0px">{{ $t("content.children.earlyPicLessonTitle11") }}</p>
-        <img src="@/assets/image006.png">
+        <a @click="toDakota"><p class="title" style="margin-top: 0px">{{ $t("content.children.earlyPicLessonTitle11") }}</p>
+          <img src="@/assets/image006.png"></a>
         <img src="@/assets/lesson061.png" style="width: 100%">
         <img src="@/assets/lesson062.png" style="width: 100%">
-        <p class="title" style="margin-top: 0px">{{ $t("content.children.earlyPicLessonTitle12") }}</p>
-        <img src="@/assets/image007.png">
+        <a @click="toMax"><p class="title" style="margin-top: 0px">{{ $t("content.children.earlyPicLessonTitle12") }}</p>
+          <img src="@/assets/image007.png"></a>
         <img src="@/assets/lesson07.png" style="width: 100%">
-        <p class="title" style="margin-top: 0px">{{ $t("content.children.earlyPicLessonTitle13") }}</p>
-        <img src="@/assets/image008.jpg">
+        <a @click="toRabbit"><p class="title" style="margin-top: 0px">{{ $t("content.children.earlyPicLessonTitle13") }}</p>
+          <img src="@/assets/image008.jpg"></a>
         <img src="@/assets/lesson08.png" style="width: 100%">
         <p class="title1" style="margin-top: 0px">{{ $t("content.children.leaderTitle4") }}</p>
         <p><a @click="toAtlas"><i>{{ $t("content.children.atlasLink7") }}</i></a></p>
@@ -57,8 +57,52 @@
     export default {
         name: "earlyPicLesson",
         methods: {
+          toRabbit() {
+            this.$router.push("/forgottenRabbit");
+            window.location.reload();
+          },
+          toMax() {
+            this.$router.push("/max");
+            window.location.reload();
+          },
+          toReady() {
+            this.$router.push("/ready");
+            window.location.reload();
+          },
+          toRainDog() {
+            this.$router.push("/raindog");
+            window.location.reload();
+          },
+          toRainCat() {
+            this.$router.push("/raincat");
+            window.location.reload();
+          },
+          toKoko() {
+            this.$router.push("/koko");
+            window.location.reload();
+          },
+          toBuddy() {
+            this.$router.push("/buddy");
+            window.location.reload();
+          },
+          toCookie() {
+            this.$router.push("/cookie");
+            window.location.reload();
+          },
+          toFur() {
+            this.$router.push("/fur");
+            window.location.reload();
+          },
+          toDakota() {
+            this.$router.push("/dakota");
+            window.location.reload();
+          },
           toAtlas() {
             this.$router.push("/atlas");
+            window.location.reload();
+          },
+          toPic() {
+            this.$router.push("/courseCompass");
             window.location.reload();
           },
           toFriendly() {
