@@ -2,12 +2,14 @@
   <div style="z-index: -1">
     <el-card class="box-card" shadow="hover" id="green">
       <div @click="toStatus" class="textTitle">{{ $t("title.aboutUs") }}</div>
+      <div @click="toStatus" class="text">{{ $t("title.aboutUs1") }}</div>
     </el-card>
     <el-card class="box-card" shadow="hover" id="white">
-      <div @click="toStatus" class="textTitle">Who we are</div>
+      <div @click="toStatus" class="textTitle">{{ $t("title.aboutUs2") }}</div>
+      <div @click="toStatus" class="text">{{ $t("title.aboutUs3") }}</div>
     </el-card>
     <el-card class="box-card" shadow="hover" id="lightGreen">
-      <div @click="toStatus" class="textTitle">Who are you</div>
+      <div @click="toDoing" class="textTitle">{{ $t("title.aboutUs4") }}</div>
     </el-card>
   </div>
 </template>
@@ -20,12 +22,22 @@
                 this.$router.push("/statusAndMission");
                 window.location.reload();
             },
+            toDoing() {
+                this.$router.push("/doingNow");
+                window.location.reload();
+            },
         }
     }
 
 </script>
 
 <style scoped>
+  .text{
+    cursor:pointer;
+    margin: 3% 10% auto 13%;
+    font-size: 20px;
+    padding: 20px;
+  }
   .box-card:hover {
     z-index: -1;
     box-shadow:10px 20px 20px #ccc;
@@ -40,7 +52,7 @@
   }
 
   #green {
-    background-image: url("./../assets/bg12.jpg");
+    background-image: url("./../assets/bg5.jpg");
     background-size: cover;
     margin: 0px auto;
     text-align: center;
@@ -49,7 +61,7 @@
   }
 
   #lightGreen {
-    background-image: url("./../assets/bg14.jpg");
+    background-image: url("./../assets/bg7.jpg");
     background-size: cover;
     margin: 50px auto;
     text-align: center;
@@ -58,7 +70,7 @@
   }
 
   #white {
-    background-image: url("./../assets/bg11.jpg");
+    background-image: url("./../assets/bg1.jpg");
     background-size: 100% 120%;
     margin: 50px auto;
     text-align: center;

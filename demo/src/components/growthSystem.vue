@@ -5,21 +5,21 @@
       <el-main>
         <p class="text" >{{ $t("growth.text1") }}</p>
         <p class="text" >
-          {{ $t("growth.text21") }}<a @click="toEarlyPicLesson"><i>{{ $t("growth.link1") }}</i></a>
-          {{ $t("growth.text22") }}<a @click="toEarlyPicLesson"><i>{{ $t("growth.link2") }}</i></a>
-          {{ $t("growth.text23") }}<a @click="toEarlyPicLesson"><i>{{ $t("growth.link3") }}</i></a>
+          {{ $t("growth.text21") }}<a @click="toProfessional"><i>{{ $t("growth.link1") }}</i></a>
+          {{ $t("growth.text22") }}<a @click="toWorkshops"><i>{{ $t("growth.link2") }}</i></a>
+          {{ $t("growth.text23") }}<a @click="toVoiceSalon"><i>{{ $t("growth.link3") }}</i></a>
           {{ $t("growth.text24") }}
         </p>
         <p class="text" >
           {{ $t("growth.text31") }}
-          <a @click="toPic"><i>{{ $t("growth.link4") }}</i></a>、
-          <a @click="toLesson"><i>{{ $t("growth.link5") }}</i></a>、
+          <a @click="toPic"><i>{{ $t("growth.link4") }}</i></a>
+          <a @click="toLesson"><i>{{ $t("growth.link5") }}</i></a>
           <a @click="toMove"><i>{{ $t("growth.link6") }}</i></a>
           {{ $t("growth.text32") }}
         </p>
-        <p class="title" style="margin-left: 30px"><a @click="toEarlyPicLesson"><i>•{{ $t("growth.link1") }}</i></a></p>
-        <p class="title" style="margin-left: 30px"><a @click="toEarlyPicLesson"><i>•{{ $t("growth.link2") }}</i></a></p>
-        <p class="title" style="margin-left: 30px"><a @click="toEarlyPicLesson"><i>•{{ $t("growth.link3") }}</i></a></p>
+        <p class="title" style="margin-left: 30px"><a @click="toProfessional"><i>•{{ $t("growth.link1") }}</i></a></p>
+        <p class="title" style="margin-left: 30px"><a @click="toWorkshops"><i>•{{ $t("growth.link2") }}</i></a></p>
+        <p class="title" style="margin-left: 30px"><a @click="toVoiceSalon"><i>•{{ $t("growth.link3") }}</i></a></p>
         <img src="@/assets/gzf1.jpg" style="width: 95%">
         <img src="@/assets/gzf2.jpg" style="width: 95%">
         <img src="@/assets/gzf3.jpg" style="width: 95%">
@@ -42,21 +42,33 @@
     export default {
         name: "growthSystem",
         methods: {
-          toPic()
-          {
-            this.$router.push("/courseCompass");
-            window.location.reload();
-          },
-          toLesson()
-          {
-            this.$router.push("/atlas");
-            window.location.reload();
-          },
-          toMove()
-          {
-            this.$router.push("/gardenSchool");
-            window.location.reload();
-          },
+            toPic()
+            {
+              this.$router.push("/courseCompass");
+              window.location.reload();
+            },
+            toVoiceSalon() {
+                this.$router.push("/voiceSalon");
+                window.location.reload();
+            },
+            toWorkshops() {
+                this.$router.push("/workshop");
+                window.location.reload();
+            },
+            toProfessional() {
+                this.$router.push("/certificate");
+                window.location.reload();
+            },
+            toLesson()
+            {
+              this.$router.push("/atlas");
+              window.location.reload();
+            },
+            toMove()
+            {
+              this.$router.push("/gardenSchool");
+              window.location.reload();
+            },
         }
     }
 </script>
