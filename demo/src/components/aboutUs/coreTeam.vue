@@ -52,6 +52,7 @@
   .text{
     text-align: center;
     padding: 10px;
+    line-height: 40px;
   }
   .text1{
     text-align: center;

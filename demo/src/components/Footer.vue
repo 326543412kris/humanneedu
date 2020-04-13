@@ -2,14 +2,15 @@
   <footer class="wrap" id="app-footer">
     <HR style="width: 92%;height: 5px"/>
     <div style="width: 50%;float: left;">
-      <p>联系我们：</p>
-      <p style="margin: 50px">邮箱：REALaiyi@126.com</p>
-      <p>爱意小秘书 微信：REALaiyi</p>
+      <p>{{ $t("footer.text1") }}</p>
+      <p style="margin: 50px">{{ $t("footer.text2") }}</p>
+      <p>{{ $t("footer.text3") }}</p>
     </div>
     <div style="width: 50%;float: left;">
-      <p>微信公众号: 爱意REAL</p>
-      <img style="width: 150px" src="./../assets/code.jpg"></img>
+      <p>{{ $t("footer.text4") }}</p>
+      <img style="width: 150px" src="./../assets/code.jpg"/>
     </div>
+    <p>{{ $t("footer.text5") }}</p>
   </footer>
 </template>
 

@@ -45,8 +45,19 @@ module.exports = {
     ok: 'OK',
     cancel: 'Quit',
   },
+  footer: {
+    text1: 'Contact Us：',
+    text2: 'E-mail: REALaiyi@126.com',
+    text3: 'WeChat ID: REALaiyi',
+    text4: 'WeChat Public Account: aiyiREAL',
+    text5: 'Aiyi (Guangzhou) Education Technology Co., Ltd. © 2020',
+  },
   title: {
-    aboutUs: 'What we are doing ?',
+    aboutUs: 'Who We Are？',
+    aboutUs1: 'REAL Education is a professional organization promoting humane education in China. It aims to promote awareness of other life and the natural world through diverse forms of education and to develop empathy, responsibility, and awe so that people can make more kind choices and contribute to a sustainable world.',
+    aboutUs2: 'What is humane education?',
+    aboutUs3: 'Humane education focuses on real problems in society, helps people become aware of the difficulties and insecurities of other life, and inspires people to find solutions that promote sustainable development of people, animals, and the environment.',
+    aboutUs4: 'Our actions',
   },
   growth: {
     title:"Become a Humane Educator ",
@@ -215,42 +226,53 @@ module.exports = {
 
     },
     aboutUs:{
-      statusTitle1:"现状与使命",
-      statusTitle2:"愿景，使命，价值观",
-      status1:"在当今世界，我们面临许多全球性挑战，如污染、贫困、气候变化、虐待动物、剥削、暴力、不平等、性别歧视等。这些问题看似彼此孤立，实际上背后有着相似的机制。这些问题大都源于现代人的自我中心，生活中充斥着占有的欲望，人与动物、人与环境、人与他人之间的关系越来越疏远。仁爱教育（Humane Education）通过探索这些看似孤立的问题之间的联系，鼓励学习者寻找准确的信息，制定积极的、有意义的、充满同理心的解决方案，赋能人们塑造更可持续的未来。\n" +
-        "爱意教育是在国内推广仁爱教育的专业机构，旨在通过多元的教育形式，提升人们对其它生命形态及自然世界的敏感和觉察，发展人们的同理心、责任感和敬畏心，进而使人们做出更有善意的选择，贡献可持续发展的世界。\n",
-      status2:"愿景：让世界充满爱意",
-      status3:"使命：通过提供高质量的仁爱教育和服务，增进人与人、动物、环境之间积极的连结",
-      status4:"价值观：尊重，同理，欣赏，生命",
-      charityTitle1:"什么是仁爱教育？",
-      charityTitle2:"仁爱教育四元素",
-      charityTitle3:"仁爱教育和其它教育的区别与联系",
-      charityTitleText:"——改编自 佐伊·维尔《仁爱教育的力量和承诺",
-      charity11:"仁爱教育（Humane Education）培养人对其他人、动物和环境的怜爱和尊重，培养人理解和赞同所有生命形态的相互依存。",
-      charity12:"仁爱教育关注社会中真实的问题，帮助人们意识和觉察到其他生命的困境和不安，更重要的是激发人们寻找解决方案、创造性地解决问题。",
-      charity13:"仁爱教育不仅关注人类与动物的互动，也关注更广泛的人文、环境和社会公平的框架，以及人类对地球的主人翁意识和可持续发展。",
-      charity2:"为了让人们有技能和经验创建一个更公正、更人道、更健康的世界，高品质的仁爱教育应该具有以下四个元素，即仁爱教育者应该让学习者：" ,
-      charity21:"1、获取准确的信息" ,
-      charity22:"2、培养好奇心、创造力、批判性思维" ,
-      charity23:"3、形成敬畏、尊重、责任" ,
-      charity24:"4、做出对自己、他人、动物和环境有益的选择",
+      statusTitle1:"Mission",
+      statusTitle2:"Vision，Mission，Values",
+      status1:"In today's world, we face many global challenges, such as pollution, poverty, climate change, cruelty to animals, exploitation, violence, inequality, gender discrimination and so on. These problems seem to be isolated from each other, but actually have similar mechanisms behind them. Most of these problems stem from the self-centeredness of modern people, whose lives are filled with the desire for possession. The relationships between people and animals, people and the environment, and people and others are increasingly estranged. By exploring the connections between these seemingly isolated problems, humane education encourages learners to seek accurate information and develop positive, meaningful, and empathetic solutions that empower people to shape a more sustainable future.\n" ,
+      status11: "REAL Education is a professional organization promoting humane education in China. It aims to promote awareness of other life and the natural world through diverse forms of education and to develop empathy, responsibility and awe so that people can make more kind choices and contribute to a sustainable world. \n",
+      status2:"Vision： Fill the world with kindness. ",
+      status3:"Mission: Promote positive connections between people, animals, and the environment by providing high-quality humane education and service.",
+      status4:"Values: Respect, Empathy, Appreciation, life",
+      charityTitle1:"What is Humane Education?",
+      charityTitle2:"Four Elements of Humane Education",
+      charityTitle3:"Humane Education with other Education",
+      charityTitleText:"——Adapted from The Power and Promise of Humane Education by Zoe Weil",
+      charity11:"Humane education fosters compassion and respect for other people, animals, and the environment, and fosters an understanding and acceptance of the interdependence of all life forms.",
+      charity12:"Humane education focuses on real problems in society, helps people become aware of the difficulties and insecurities of other life, and more importantly, inspires people to seek solutions and solve problems creatively.",
+      charity13:"Humane education focuses not only on human interaction with animals but also on a broader framework of humanity, environmental and social equity, as well as human stewardship of the planet and sustainable development.",
+      charity2:"In order for people to have the skills and experience to create a more just, more humane, and healthier world, high-quality humane education should have the following four elements." ,
+      charity21:"1. Acquire accurate information" ,
+      charity22:"2. Fostering the 3Cs: Curiosity, Creativity and Critical thinking" ,
+      charity23:"3. Instilling the 3Rs: Reverence, Respect, and Responsibility" ,
+      charity24:"4. Making positive choices that benefit oneself, other people, non-human animals, and the earth",
       charity31:"仁爱教育与品格教育" ,
       charity32:"在某些方面来说，仁爱教育与其它教育途径有相似之处，比如品格教育或价值观教育，但是有两点重要的区别。大多数的品格教育和价值观教育项目主要关注人与人之间的关系和互动，较少会包括我们与环境、动物之间的关系。品格教育和价值观教育也少有讨论我们每日的选择带来的更广泛的影响，比如对那些不在我们周围的、可能离我们很远的人和动物产生的影响。仁爱教育会探讨我们对个人护肤品、食物、衣物和交通工具的选择，如何影响其他人。" ,
       charity33:"在某些方面，仁爱教育包括品格教育和价值观教育，它要求学习者在个人交往中实践友善、怜爱和诚实等美德，但也要求他们探索这些美德在他们的日常生活和个人选择方面的真正含义，这些个人选择会影响家庭和社区以外的其他人。仁爱教育要求学习者不仅对他们的同学和邻居友善，而且对他们的生活影响到的其它生命友善；不仅对自己家的猫狗表达怜爱，而且对所有动物都如此；不仅尊重自己的家，而且尊重地球作为我们唯一的家园。" ,
       charity34:"仁爱教育与可持续发展教育" ,
       charity35:"仁爱教育与可持续发展教育的相似点在于，它们都致力于创造一个人类在地球上和平、可持续地生活的世界。这两种教育浪潮之间唯一显著的区别是，仁爱教育也包括我们与个人的关系，并促进选择，以减少痛苦，不仅是减少整个生态系统的、物种或社区的不利处境，也包括个体的人和动物。" ,
-      doingNowTitle1:"我们的行动",
-      doingNow1:"爱意教育以仁爱教育为总体理念，通过研发和搭建仁爱教育者成长体系，为大学生、家长和教师等提供包括Voice沙龙在内的公众教育、能力提升工作坊以及系列证书课程。仁爱教育者将逐渐学习并具备思考、关心和行动的能力，能够使用和发展教育资源，来给不同年龄阶段的学习者提供仁爱教育的课程或活动。",
-      doingNow2:"爱意教育是仁爱教育联盟（Humane Education Coalition）成员，与来自27个国家与地区的130多家机构一起，促进仁爱教育的发展，为了一个人、动物和环境可持续发展的世界。",
-      coreTitle:"核心团队",
-      core11:"顾璇    创始人",
-      core12:"香港中文大学教育心理学博士，美国丹佛大学人与动物连结研究所“仁爱教育”认证导师",
-      core21:"王博    联合创始人",
-      core22:"香港中文大学教育心理学博士，获得美国丹佛大学人与动物连结研究中心“动物与人类健康”职业认证，亲自然教育研究中心创始人，上海真爱梦想公益基金会·看见未来教育研究院执行院长",
-      core31:"张力文    联合创始人",
-      core32:"获得美国丹佛大学人与动物连结研究中心“动物与人类健康”职业认证，加拿大非赢利组织DignifID Animals Foundation董事，曾任跨国公司人力资源和运营管理工作10余年",
-      core41:"塞娜·贝可索   博士（Dr. Sarah Bexell）核心专家",
-      core42:"丹佛大学人与动物连结研究中心仁爱教育主任，成都大熊猫基地环境保护教育主管，在野生动物保护、仁爱教育和可持续发展领域有超过25年的工作经验",
+      doingNowTitle1:"Our actions",
+      doingNow1:"With the overall concept of humane education, REAL Education provides students, parents, and teachers with public education (e.g., Voice Salon), capacity improvement workshops and a series of certificate courses through the development and establishment of a growth system for humane educators. Humane educators will gradually learn and be equipped with the ability to think, care and act, and will be able to use and develop educational resources to provide humane education courses or activities to learners of all ages.",
+      doingNow2:"REAL Education is a member of the Humane Education Coalition, which works with more than 130 organizations in 27 countries and regions to promote humane education for a world that is sustainable for people, animals, and the environment.",
+      coreTitle:"Core team",
+      core11:"Cherie Gu    " +
+        "Co-founder",
+      core12:"•Ph.D. in Educational Psychology, Chinese University of Hong Kong," +
+        "• Complete Human Education Certificate program at Denver University",
+      core21:"Bo Wang     " +
+        "Co-founder",
+      core22:"•\tPh.D. in Educational Psychology, Chinese University of Hong Kong\n" +
+        "•\tComplete Animal-Human Health Certificate program at Denver University\n" +
+        "•\tFounder of Pro-Nature Education and Research Center\n" +
+        "•\tExecutive dean, think tank of Adream Foundation\n",
+      core31:"Liwen Zhang\n" +
+        "Co-founder\n",
+      core32:"•\tComplete Animal-Human Health Certificate program at Denver University\n" +
+        "•\tDirector of DignifID Animals Foundation\n" +
+        "•\t10+years of HR and Operations management for international companies in China\n",
+      core41:"Sarah Bexell\n" +
+        "Chief Consultant\n",
+      core42:"•\tDirector of humane education program, Institute of Human-Animal Connection at University of Denver\n" +
+        "•\t25+years of work experiences in wildlife conservation, humane education, and sustainable development\n",
     },
     love:{
       preface:{

@@ -5,7 +5,8 @@
       <p class="text" style="margin-top: 10px">{{ $t("content.aboutUs.charity11") }}</p>
       <p class="text" style="margin-top: 10px">{{ $t("content.aboutUs.charity12") }}</p>
       <p class="text" style="margin-top: 10px">{{ $t("content.aboutUs.charity13") }}</p>
-      <img src="@/assets/charity1.jpg" style="width: 70%">
+      <img v-if="this.$i18n.locale === 'zh'" src="@/assets/charity1.jpg" style="width: 70%">
+      <img v-if="this.$i18n.locale === 'en'" src="@/assets/charity1E.jpg" style="width: 70%">
     </el-card>
     <el-card class="content" shadow="hover" id="green">
       <p class="title" style="margin-top: 10px">{{ $t("content.aboutUs.charityTitle2") }}</p>
@@ -15,7 +16,8 @@
       <p class="text" style="margin-top: 10px">{{ $t("content.aboutUs.charity22") }}</p>
       <p class="text" style="margin-top: 10px">{{ $t("content.aboutUs.charity23") }}</p>
       <p class="text" style="margin-top: 10px">{{ $t("content.aboutUs.charity24") }}</p>
-      <img src="@/assets/charity2.jpg" style="width: 80%;margin-left: 10%">
+      <img v-if="this.$i18n.locale === 'zh'" src="@/assets/charity2.jpg" style="width: 80%;margin-left: 10%">
+      <img v-if="this.$i18n.locale === 'en'" src="@/assets/charity2E.jpg" style="width: 80%;margin-left: 10%">
     </el-card>
     <el-card class="content" shadow="hover" id="lightGreen">
       <p class="title" style="margin-top: 10px">{{ $t("content.aboutUs.charityTitle3") }}</p>
@@ -86,6 +88,7 @@
     text-indent: 32px;
     text-align: left;
     padding: 10px;
+    line-height: 40px;
   }
   .text2{
     text-align: right;

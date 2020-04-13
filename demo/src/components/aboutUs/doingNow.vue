@@ -3,7 +3,8 @@
     <el-card class="content" shadow="hover" id="white">
       <p class="title" style="margin-top: 10px">{{ $t("content.aboutUs.doingNowTitle1") }}</p>
       <p class="text" style="margin-top: 10px">{{ $t("content.aboutUs.doingNow1") }}</p>
-      <img src="@/assets/doing1.jpg" style="width: 90%">
+      <img v-if="this.$i18n.locale === 'zh'" src="@/assets/doing1.jpg" style="width: 90%">
+      <img v-if="this.$i18n.locale === 'en'" src="@/assets/doing1E.jpg" style="width: 90%">
     </el-card>
     <el-card class="content" shadow="hover" id="green">
       <p class="text" style="margin-top: 10px">{{ $t("content.aboutUs.doingNow2") }}</p>
@@ -69,6 +70,7 @@
     text-indent: 32px;
     text-align: left;
     padding: 10px;
+    line-height: 40px;
   }
   .text2{
     text-align: right;

@@ -5,8 +5,8 @@
       <div @click="toStatus" class="text">{{ $t("title.aboutUs1") }}</div>
     </el-card>
     <el-card class="box-card" shadow="hover" id="white">
-      <div @click="toStatus" class="textTitle">{{ $t("title.aboutUs2") }}</div>
-      <div @click="toStatus" class="text">{{ $t("title.aboutUs3") }}</div>
+      <div @click="toCharity" class="textTitle">{{ $t("title.aboutUs2") }}</div>
+      <div @click="toCharity" class="text">{{ $t("title.aboutUs3") }}</div>
     </el-card>
     <el-card class="box-card" shadow="hover" id="lightGreen">
       <div @click="toDoing" class="textTitle">{{ $t("title.aboutUs4") }}</div>
@@ -20,6 +20,10 @@
         methods: {
             toStatus() {
                 this.$router.push("/statusAndMission");
+                window.location.reload();
+            },
+            toCharity() {
+                this.$router.push("/charity");
                 window.location.reload();
             },
             toDoing() {
@@ -37,6 +41,8 @@
     margin: 3% 10% auto 13%;
     font-size: 20px;
     padding: 20px;
+    line-height: 40px;
+    text-align: left;
   }
   .box-card:hover {
     z-index: -1;

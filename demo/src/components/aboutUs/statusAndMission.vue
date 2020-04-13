@@ -3,13 +3,15 @@
     <el-card class="content" shadow="hover" id="white">
       <p class="title" style="margin-top: 10px">{{ $t("content.aboutUs.statusTitle1") }}</p>
       <p class="text" style="margin-top: 10px">{{ $t("content.aboutUs.status1") }}</p>
+      <p class="text" style="margin-top: 10px">{{ $t("content.aboutUs.status11") }}</p>
     </el-card>
     <el-card class="content" shadow="hover" id="green">
       <p class="title" style="margin-top: 10px">{{ $t("content.aboutUs.statusTitle2") }}</p>
       <p class="text" style="margin-top: 10px">{{ $t("content.aboutUs.status2") }}</p>
       <p class="text" style="margin-top: 10px">{{ $t("content.aboutUs.status3") }}</p>
       <p class="text" style="margin-top: 10px">{{ $t("content.aboutUs.status4") }}</p>
-      <img src="@/assets/RealValue.jpg" style="width: 80%;margin-left: 10%">
+      <img v-if="this.$i18n.locale === 'zh'" src="@/assets/RealValue.jpg" style="width: 80%;margin-left: 10%">
+      <img v-if="this.$i18n.locale === 'en'" src="@/assets/RealValueE.jpg" style="width: 80%;margin-left: 10%">
     </el-card>
   </div>
 </template>
@@ -65,6 +67,7 @@
     text-indent: 32px;
     text-align: left;
     padding: 10px;
+    line-height: 40px;
   }
   .content {
     color: white;
