@@ -5,11 +5,13 @@
       <el-main>
         <p class="title" style="margin-top: 0px">{{ $t("content.children.atlasTitle2") }}</p>
         <p class="text">{{ $t("content.children.atlas1") }}</p>
-        <img src="@/assets/atlas1.jpg" style="width: 95%">
+        <img v-if="this.$i18n.locale === 'zh'" src="@/assets/atlas1.jpg" style="width: 95%">
+        <img v-if="this.$i18n.locale === 'en'" src="@/assets/atlas1E.jpg" style="width: 95%">
         <p class="text">{{ $t("content.children.atlas2") }}</p>
         <p class="text">{{ $t("content.children.atlas3") }}</p>
         <p class="text">{{ $t("content.children.atlas4") }}</p>
-        <img src="@/assets/atlas1.png" style="width: 90%">
+        <img v-if="this.$i18n.locale === 'zh'" src="@/assets/atlas1.png" style="width: 90%">
+        <img v-if="this.$i18n.locale === 'en'" src="@/assets/atlas1E.png" style="width: 90%">
         <p><a @click="toEarlyPicLesson"><i>{{ $t("content.children.atlasLink1") }}</i></a></p>
         <p><a @click="toFriendly"><i>{{ $t("content.children.atlasLink2") }}</i></a></p>
         <p><a @click="toLeader"><i>{{ $t("content.children.atlasLink3") }}</i></a></p>
@@ -66,6 +68,7 @@
     text-indent: 32px;
     text-align: left;
     padding: 10px;
+    line-height: 40px;
   }
   .content {
     color: white;

@@ -142,6 +142,7 @@
     text-indent: 32px;
     text-align: left;
     padding: 10px;
+    line-height: 40px;
   }
   .content {
     color: white;
