@@ -15,6 +15,7 @@
         <img src="@/assets/lesson2.jpg" style="width: 70%">
         <p class="title" style="margin-top: 0px">{{ $t("content.children.friendlyTitle4") }}</p>
         <p class="text">{{ $t("content.children.friendly3") }}</p>
+        <pre><p class="text1">{{ $t("content.children.friendly31") }}</p></pre>
         <p class="title" style="margin-top: 0px">{{ $t("content.children.friendlyTitle5") }}</p>
         <p class="text">{{ $t("content.children.friendly41") }}</p>
         <p class="text">{{ $t("content.children.friendly42") }}</p>
@@ -95,6 +96,13 @@
     text-indent: 32px;
     text-align: left;
     padding: 10px;
+    line-height: 40px;
+  }
+  .text1{
+    text-align: left;
+    padding-left: 40px;
+    font-family:"Microsoft YaHei",serif;
+    line-height: 40px ;
   }
   .content {
     color: white;

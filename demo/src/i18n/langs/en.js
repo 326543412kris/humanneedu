@@ -115,7 +115,7 @@ module.exports = {
       leaderTitle1:"青少年友善领导力",
       leaderTitle2:"•如何培养友善领导力",
       leaderTitle3:"•课程内容",
-      leaderTitle4:"•更多儿童青少年课程",
+      leaderTitle4:"•More lessons for children and adolescents",
       leader1:"儿童青少年友善系列课程分为两个部分，第一部分为“儿童友善课堂”，对象为6-12岁的儿童。第二部分为“青少年友善领导力”课程，对象为12-18岁的青少年。",
       leader2:"本次课程以“仁爱教育”（Humane Education）作为教学哲学和理论基础，将同理心（empathy）这一重要社会情感技能与领导力（leadership）结合，与青少年共同探讨如何“友善”地对待其他生命的知识和技能，并引领身边的人成为更为友善的人。",
       leader3:"从人与自我、人与他人、人与动物、人与社区、人与环境等不同主题，培养青少年尊重、欣赏、关爱其他生命的意识，在青少年的个人发展中融入社会情感技能学习，发展青少年的友善之心和同理心，提升青少年的社会情绪技能。同时，结合课程，将鼓励青少年发起真实的调研，开展行动，从而达到“知行合一”。",
@@ -148,13 +148,23 @@ module.exports = {
       friendly2:"“Children’s Kindness Course” is such a course, developed by REAL Education, with \"humane education\" as a teaching philosophy and theoretical basis. From different themes such as \"man and man, man and animals, man and nature\", the course aims to cultivate children's awareness and skills of respecting, appreciating, and caring for other life, and to develop children’s heart of kindness.\n" ,
       friendly21:"Children’s Kindness Course follows the four elements of humane education: acquiring the truth and facts, encouraging curiosity and reflection, fostering awe and responsibility, and inspiring kind action and choice.\n",
       friendly3:"Children’s Kindness Course is designed for children aged 6-12. Starting from the animals around them, it gradually expands to the surrounding natural environment and humanistic social environment, guides children to think about their relationship with the diverse life around them, and triggers their kind and responsible behaviors. The content of the basic version includes the following lessons:",
+      friendly31:"Lesson 1: Animal’s Language ABC\n" +
+        "Lesson 2: What do You See? – Animal’s Perspectives and Needs\n" +
+        "Lesson 3: Animal’s Needs and Care\n" +
+        "Lesson 4: Amazing Farm Animals\n" +
+        "Lesson 5: One World\n" +
+        "Lesson 6: Animal’s Communication \n" +
+        "Lesson 7: Plastic Planet\n" +
+        "Lesson 8: Creating a Kind Community\n" +
+        "Lesson 9: Goodbye to Silence\n" +
+        "Lesson 10: What Would You Do?\n",
       friendly41:"The community is a great place for Children’s Kindness Course. It is well known that the education a person receives can be divided into school education, family education, self-education, and social education. The social education of children and adolescents takes place in the real community, which is also the background for children and adolescents to receive other education.\n" ,
       friendly42:"A community is a place where children live and play, a street where they go to school, a space where neighbors interact. Every tree and grass in the community, every dog and cat, can be good educational materials to develop children's kindness. Community is the real world in which children live, providing them with the initial imagination to understand society.\n" ,
       friendly43:"A warm and friendly community environment can help children build a sense of trust and security. In open and free communication, children can better complete the social development, and at the same time children have more positive behaviors to contribute to the community. On the contrary, the indifferent community environment provides less social support, weakened relationship, low mutual trust; children tend to feel lonely and self-centered, thus become moral and emotional indifference. In the future complex and unfamiliar environment, children's ability to resist setbacks will also decline.\n" ,
       friendly44:"If what children learn in school is more knowledge, they will learn more interpersonal skills, build trust and security, and develop sound personality and responsible behaviors through social emotional learning in the community.\n" ,
       friendly45:"Therefore, the Children’s Kindness Course is set up in the community, aiming at allowing children to observe and discuss the real life, how they treat the community environment, people around them, stray animals, and street vendors, and how they can contribute to the atmosphere of community.\n" ,
       friendly46:"In addition to being conducted in community, Children’s Kindness Course can also be conducted in school as 3:30 pm after-school activities. Teachers can guide students to discuss the above issues, and make students accumulate more experience and practice on related issues through the mode of service learning outside the class.\n" ,
-      friendly47:"In addition to being conducted in community, Children’s Kindness Course can also be conducted in school as 3:30 pm after-school activities. Teachers can guide students to discuss the above issues, and make students accumulate more experience and practice on related issues through the mode of service learning outside the class.\n",
+      friendly47:"",
       friendly5:"The mission of REAL Education is to promote humane education. We look forward to working with more communities, schools, educational institutions, and animal protection organizations to promote Children’s Kindness Course and together create a loving and kind world!\n" ,
       friendly51:"The first lesson in the series, “Animal’s Language ABC”, is called “The First Kindness Lesson” and is now open for application. After filling in the application form, the applicant can obtain the right to use the first lesson, and also the lesson plan and PPT of the lesson. Applicants can use the lesson on a non-profit basis.\n" ,
       friendly52:"Scan the code to fill in the application form, or click the link below to fill in the form. After submitting the form, we will contact you.\n",

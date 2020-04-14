@@ -19,7 +19,7 @@
             <el-menu-item index="charity">{{ $t("menu.charity") }}</el-menu-item>
             <el-menu-item index="doingNow">{{ $t("menu.doingNow") }}</el-menu-item>
             <el-menu-item index="coreTeam">{{ $t("menu.coreTeam") }}</el-menu-item>
-            <el-menu-item index="natureSchool">{{ $t("menu.natureSchool") }}</el-menu-item>
+<!--            <el-menu-item index="natureSchool">{{ $t("menu.natureSchool") }}</el-menu-item>-->
           </el-submenu>
           <el-submenu index="children">
             <template slot="title">{{ $t("menu.children") }}</template>
@@ -77,7 +77,13 @@
                     type: 'warning'
                 }).then(() => {
                     let locale = this.$i18n.locale;
-                    locale === 'zh' ? this.$i18n.locale = 'en' : this.$i18n.locale = 'zh';
+                    if (locale === 'zh') {
+                        localStorage.setItem('locale', 'en');
+                        this.$i18n.locale = localStorage.getItem('locale');
+                    } else if (locale === 'en'){
+                        localStorage.setItem('locale', 'zh');
+                        this.$i18n.locale = localStorage.getItem('locale');
+                    }
                 }).catch(() => {
                     this.$message({
                         type: 'info',
