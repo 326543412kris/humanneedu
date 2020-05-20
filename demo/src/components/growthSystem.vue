@@ -74,13 +74,13 @@
 </script>
 
 <style scoped>
-  a {color: cornflowerblue;}
+  a {color: mediumseagreen;}
   a:hover {color:lightblue;cursor:pointer;text-decoration:underline;}
   a:active {color:white;}
   .title{
     padding: 20px;
     text-align: left;
-    font-size: x-large;
+    font-size: xx-large;
   }
   .text{
     text-indent: 32px;
@@ -89,9 +89,9 @@
   }
   .content {
     color: black;
-    font-size: large;
-    line-height: 28px;
-    letter-spacing: 0px;
+    font-size: 22px;
+    line-height: 32px;
+    letter-spacing: 1px;
     background-color: #ffffff;
     margin: 50px auto;
     width: 70%;

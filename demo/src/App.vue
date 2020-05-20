@@ -35,5 +35,6 @@
   height: 100%;
   position: absolute;
   width: 100%;
+  letter-spacing: 1px;
 }
 </style>

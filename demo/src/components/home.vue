@@ -39,7 +39,7 @@
   .text{
     cursor:pointer;
     margin: 3% 10% auto 13%;
-    font-size: 20px;
+    font-size: 22px;
     padding: 20px;
     line-height: 40px;
     text-align: left;
@@ -64,6 +64,7 @@
     text-align: center;
     background-color: #48b78f;
     color: #ffffff;
+    font-size: 22px;
   }
 
   #lightGreen {
@@ -73,6 +74,7 @@
     text-align: center;
     background-color: #48b78f;
     color: #ffffff;
+    font-size: 22px;
   }
 
   #white1 {
@@ -82,6 +84,7 @@
     text-align: center;
     background-color: #cae4c1;
     color: #ffffff;
+    font-size: 22px;
   }
 
   .textTitle {

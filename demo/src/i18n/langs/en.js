@@ -264,11 +264,12 @@ module.exports = {
       doingNow1:"With the overall concept of humane education, REAL Education provides students, parents, and teachers with public education (e.g., Voice Salon), capacity improvement workshops and a series of certificate courses through the development and establishment of a growth system for humane educators. Humane educators will gradually learn and be equipped with the ability to think, care and act, and will be able to use and develop educational resources to provide humane education courses or activities to learners of all ages.",
       doingNow2:"REAL Education is a member of the Humane Education Coalition, which works with more than 130 organizations in 27 countries and regions to promote humane education for a world that is sustainable for people, animals, and the environment.",
       coreTitle:"Core team",
-      core11:"Cherie Gu    " +
+      core11:"Cherie Gu\n" +
         "Co-founder",
-      core12:"•Ph.D. in Educational Psychology, Chinese University of Hong Kong," +
-        "• Complete Human Education Certificate program at Denver University",
-      core21:"Bo Wang     " +
+      core12:"• Ph.D. in Educational Psychology\n" +
+        "• Chinese University of Hong Kong\n" +
+        "• Complete Human Education Certificate program at Denver University\n",
+      core21:"Bo Wang\n" +
         "Co-founder",
       core22:"•\tPh.D. in Educational Psychology, Chinese University of Hong Kong\n" +
         "•\tComplete Animal-Human Health Certificate program at Denver University\n" +
@@ -281,8 +282,10 @@ module.exports = {
         "•\t10+years of HR and Operations management for international companies in China\n",
       core41:"Sarah Bexell\n" +
         "Chief Consultant\n",
-      core42:"•\tDirector of humane education program, Institute of Human-Animal Connection at University of Denver\n" +
-        "•\t25+years of work experiences in wildlife conservation, humane education, and sustainable development\n",
+      core42:"•\tDirector of humane education program\n" +
+        "•\tInstitute of Human-Animal Connection at University of Denver\n" +
+        "•\t25+years of work experiences in wildlife conservation,\n " +
+        "humane education, and sustainable development\n",
     },
     love:{
       preface:{

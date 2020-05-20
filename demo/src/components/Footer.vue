@@ -8,9 +8,9 @@
     </div>
     <div style="width: 50%;float: left;">
       <p>{{ $t("footer.text4") }}</p>
-      <img style="width: 150px" src="./../assets/code.jpg"/>
+      <img style="width: 200px" src="./../assets/code.jpg"/>
     </div>
-    <p>{{ $t("footer.text5") }}</p>
+<!--    <p>{{ $t("footer.text5") }}</p>-->
   </footer>
 </template>
 
@@ -25,6 +25,8 @@
 </script>
 <style>
   footer {
+    font-size: 22px;
+    letter-spacing: 1px;
     width: 100%;
     height: 400px;
   }
