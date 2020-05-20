@@ -5,11 +5,11 @@
         <img v-if="this.$i18n.locale === 'en'" src="@/assets/logoe.png" style="width: 100%;float: left;height: 100%;">
         <img v-else src="../../src/assets/logo.png" style="width: 100%;float: left;height: 100%;">
       </div>
-      <div style="width: 18%;float: left;text-align: left;cursor:pointer;" @click="toHome">
-<!--        <h2 style="margin: auto;padding: 17px;color: #48b78f" >{{ $t("message.title") }}</h2>-->
-      </div>
-      <div style="width: 70%;float: right">
-        <el-menu router class="el-menu-demo" style="float: right"
+<!--      <div style="width: 18%;float: left;text-align: left;cursor:pointer;" @click="toHome">-->
+<!--&lt;!&ndash;        <h2 style="margin: auto;padding: 17px;color: #48b78f" >{{ $t("message.title") }}</h2>&ndash;&gt;-->
+<!--      </div>-->
+      <div style="width: 70%;float: right;">
+        <el-menu router class="el-menu-demo" style="float: right;"
                   active-text-color="#48b78f"
                  :default-active="activeIndex" mode="horizontal" @select="handleSelect">
           <el-menu-item index="home">{{ $t("menu.home") }}</el-menu-item>
@@ -99,6 +99,9 @@
 
 <!-- Add "scoped" attribute to limit CSS to this component only -->
 <style scoped>
+  el-menu-item style {
+    font-size: 20px !important;
+  }
   div {
     left: 0;
     top: 0;
@@ -107,7 +110,7 @@
   }
 
   h1, h2 {
-    font-weight: normal;
+    font-weight: bolder;
   }
 
   header {
