@@ -6,7 +6,7 @@
         <img v-else src="../../src/assets/logo.png" style="width: 100%;float: left;height: 100%;">
       </div>
       <div style="width: 18%;float: left;text-align: left;cursor:pointer;" @click="toHome">
-        <h2 style="margin: auto;padding: 17px;color: #48b78f" >{{ $t("message.title") }}</h2>
+<!--        <h2 style="margin: auto;padding: 17px;color: #48b78f" >{{ $t("message.title") }}</h2>-->
       </div>
       <div style="width: 70%;float: right">
         <el-menu router class="el-menu-demo" style="float: right"

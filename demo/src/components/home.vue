@@ -1,14 +1,14 @@
 <template>
   <div style="z-index: -1">
-    <el-card class="box-card" shadow="hover" id="green">
+    <el-card class="box-card" shadow="hover" id="green1">
       <div @click="toStatus" class="textTitle">{{ $t("title.aboutUs") }}</div>
       <div @click="toStatus" class="text">{{ $t("title.aboutUs1") }}</div>
     </el-card>
-    <el-card class="box-card" shadow="hover" id="white">
+    <el-card class="box-card" shadow="hover" id="white1">
       <div @click="toCharity" class="textTitle">{{ $t("title.aboutUs2") }}</div>
       <div @click="toCharity" class="text">{{ $t("title.aboutUs3") }}</div>
     </el-card>
-    <el-card class="box-card" shadow="hover" id="lightGreen">
+    <el-card class="box-card" shadow="hover" id="lightGreen1">
       <div @click="toDoing" class="textTitle">{{ $t("title.aboutUs4") }}</div>
     </el-card>
   </div>
@@ -57,7 +57,7 @@
     box-shadow:10px 10px 5px #ccc;
   }
 
-  #green {
+  #green1 {
     background-image: url("./../assets/bg5.jpg");
     background-size: cover;
     margin: 0px auto;
@@ -66,7 +66,7 @@
     color: #ffffff;
   }
 
-  #lightGreen {
+  #lightGreen1 {
     background-image: url("./../assets/bg7.jpg");
     background-size: cover;
     margin: 50px auto;
@@ -75,7 +75,7 @@
     color: #ffffff;
   }
 
-  #white {
+  #white1 {
     background-image: url("./../assets/bg1.jpg");
     background-size: 100% 120%;
     margin: 50px auto;

@@ -90,11 +90,11 @@
     font-family:"Microsoft YaHei",serif;
   }
   .content {
-    color: white;
+    color: black;
     font-size: large;
     line-height: 28px;
     letter-spacing: 0px;
-    background-color: #88bf73;
+    background-color: #ffffff;
     margin: 50px auto;
     width: 70%;
     z-index: -2;

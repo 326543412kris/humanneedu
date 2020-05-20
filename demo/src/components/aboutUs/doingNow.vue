@@ -37,22 +37,22 @@
     margin: 50px auto;
     text-align: left;
     font-size: 20px;
-    background-color: #88bf73;
-    color: #ffffff;
+    background-color: #ffffff;
+    color: #000000;
     top: 0;
   }
 
   #lightGreen {
     margin: 50px auto;
     text-align: center;
-    background-color: #48b78f;
-    color: #ffffff;
+    background-color: #ffffff;
+    color: #000000;
   }
 
   #white {
     margin: 0px auto;
     text-align: center;
-    background-color: #48b78f;
+    background-color: #ffffff;
     color: #000000;
   }
   .title{

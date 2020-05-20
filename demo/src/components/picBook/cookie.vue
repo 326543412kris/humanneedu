@@ -59,11 +59,11 @@
     padding: 10px;
   }
   .contentPic {
-    color: white;
+    color: black;
     font-size: large;
     line-height: 28px;
     letter-spacing: 0px;
-    background-color: #48b78f;
+    background-color: #ffffff;
     margin: 50px auto;
     width: 70%;
     z-index: -2;
