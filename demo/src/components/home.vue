@@ -8,7 +8,7 @@
       <div @click="toCharity" class="textTitle">{{ $t("title.aboutUs2") }}</div>
       <div @click="toCharity" class="text">{{ $t("title.aboutUs3") }}</div>
     </el-card>
-    <el-card class="box-card" shadow="hover" id="lightGreen1">
+    <el-card class="box-card" shadow="hover" id="lightGreen">
       <div @click="toDoing" class="textTitle">{{ $t("title.aboutUs4") }}</div>
     </el-card>
   </div>
@@ -66,7 +66,7 @@
     color: #ffffff;
   }
 
-  #lightGreen1 {
+  #lightGreen {
     background-image: url("./../assets/bg7.jpg");
     background-size: cover;
     margin: 50px auto;
