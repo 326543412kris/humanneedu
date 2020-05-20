@@ -1,5 +1,5 @@
 <template>
-  <div style="z-index: -1">
+  <div>
     <el-card class="content" shadow="hover" id="white">
       <p class="title" style="margin-top: 10px">{{ $t("content.aboutUs.statusTitle1") }}</p>
       <p class="text" style="margin-top: 10px">{{ $t("content.aboutUs.status1") }}</p>
@@ -53,7 +53,7 @@
   }
 
   #white {
-    margin: 0px auto;
+    margin: 50px auto;
     text-align: center;
     background-color: #ffffff;
     color: #000000;

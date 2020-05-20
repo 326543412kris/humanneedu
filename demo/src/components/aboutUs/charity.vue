@@ -68,7 +68,7 @@
   }
 
   #white {
-    margin: 0px auto;
+    margin: 50px auto;
     text-align: center;
     color: #000000;
     background-color: #ffffff;

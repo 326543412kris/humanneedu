@@ -39,7 +39,7 @@
   }
 
   #white {
-    margin: 0px auto;
+    margin: 50px auto;
     text-align: center;
     background-color: #ffffff;
     color: #000000;
