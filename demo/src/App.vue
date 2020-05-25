@@ -32,9 +32,9 @@
   color: #2c3e50;
   top: 0;
   left: 0;
-  height: 100%;
   position: absolute;
   width: 100%;
   letter-spacing: 1px;
+  background-color: #eeeeee;
 }
 </style>

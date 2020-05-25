@@ -15,32 +15,32 @@
         <p class="title" style="margin-top: 0px">{{ $t("content.children.earlyPicLessonTitle4") }}</p>
         <p class="text">{{ $t("content.children.earlyPicLesson6") }}</p>
         <p class="text">{{ $t("content.children.earlyPicLesson7") }}</p>
-        <p class="title" style="margin-top: 0px">{{ $t("content.children.earlyPicLessonTitle5") }}</p>
-        <a @click="toCookie"><p class="title" style="margin-top: 0px">{{ $t("content.children.earlyPicLessonTitle6") }}</p>
-          <img src="@/assets/image001.png"></a>
-        <img src="@/assets/lesson01.png" style="width: 100%">
-        <a @click="toFur"><p class="title" style="margin-top: 0px">{{ $t("content.children.earlyPicLessonTitle7") }}</p>
-          <img src="@/assets/image002.png"></a>
-        <img src="@/assets/lesson02.png" style="width: 100%">
-        <a @click="toReady"><p class="title" style="margin-top: 0px">{{ $t("content.children.earlyPicLessonTitle8") }}</p>
-          <img src="@/assets/image003.png"></a>
-        <img src="@/assets/lesson03.png" style="width: 100%">
-        <a @click="toBuddy"><p class="title" style="margin-top: 0px">{{ $t("content.children.earlyPicLessonTitle9") }}</p>
-          <img src="@/assets/image004.png"></a>
-        <img src="@/assets/lesson04.png" style="width: 100%">
-        <a @click="toRainCat"><p class="title" style="margin-top: 0px">{{ $t("content.children.earlyPicLessonTitle10") }}</p>
-          <img src="@/assets/image005.png"></a>
-        <img src="@/assets/lesson05.png" style="width: 100%">
-        <a @click="toDakota"><p class="title" style="margin-top: 0px">{{ $t("content.children.earlyPicLessonTitle11") }}</p>
-          <img src="@/assets/image006.png"></a>
-        <img src="@/assets/lesson061.png" style="width: 100%">
-        <img src="@/assets/lesson062.png" style="width: 100%">
-        <a @click="toMax"><p class="title" style="margin-top: 0px">{{ $t("content.children.earlyPicLessonTitle12") }}</p>
-          <img src="@/assets/image007.png"></a>
-        <img src="@/assets/lesson07.png" style="width: 100%">
-        <a @click="toRabbit"><p class="title" style="margin-top: 0px">{{ $t("content.children.earlyPicLessonTitle13") }}</p>
-          <img src="@/assets/image008.jpg"></a>
-        <img src="@/assets/lesson08.png" style="width: 100%">
+<!--        <p class="title" style="margin-top: 0px">{{ $t("content.children.earlyPicLessonTitle5") }}</p>-->
+<!--        <a @click="toCookie"><p class="title" style="margin-top: 0px">{{ $t("content.children.earlyPicLessonTitle6") }}</p>-->
+<!--          <img src="@/assets/image001.png"></a>-->
+<!--        <img src="@/assets/lesson01.png" style="width: 100%">-->
+<!--        <a @click="toFur"><p class="title" style="margin-top: 0px">{{ $t("content.children.earlyPicLessonTitle7") }}</p>-->
+<!--          <img src="@/assets/image002.png"></a>-->
+<!--        <img src="@/assets/lesson02.png" style="width: 100%">-->
+<!--        <a @click="toReady"><p class="title" style="margin-top: 0px">{{ $t("content.children.earlyPicLessonTitle8") }}</p>-->
+<!--          <img src="@/assets/image003.png"></a>-->
+<!--        <img src="@/assets/lesson03.png" style="width: 100%">-->
+<!--        <a @click="toBuddy"><p class="title" style="margin-top: 0px">{{ $t("content.children.earlyPicLessonTitle9") }}</p>-->
+<!--          <img src="@/assets/image004.png"></a>-->
+<!--        <img src="@/assets/lesson04.png" style="width: 100%">-->
+<!--        <a @click="toRainCat"><p class="title" style="margin-top: 0px">{{ $t("content.children.earlyPicLessonTitle10") }}</p>-->
+<!--          <img src="@/assets/image005.png"></a>-->
+<!--        <img src="@/assets/lesson05.png" style="width: 100%">-->
+<!--        <a @click="toDakota"><p class="title" style="margin-top: 0px">{{ $t("content.children.earlyPicLessonTitle11") }}</p>-->
+<!--          <img src="@/assets/image006.png"></a>-->
+<!--        <img src="@/assets/lesson061.png" style="width: 100%">-->
+<!--        <img src="@/assets/lesson062.png" style="width: 100%">-->
+<!--        <a @click="toMax"><p class="title" style="margin-top: 0px">{{ $t("content.children.earlyPicLessonTitle12") }}</p>-->
+<!--          <img src="@/assets/image007.png"></a>-->
+<!--        <img src="@/assets/lesson07.png" style="width: 100%">-->
+<!--        <a @click="toRabbit"><p class="title" style="margin-top: 0px">{{ $t("content.children.earlyPicLessonTitle13") }}</p>-->
+<!--          <img src="@/assets/image008.jpg"></a>-->
+<!--        <img src="@/assets/lesson08.png" style="width: 100%">-->
         <p class="title1" style="margin-top: 0px">{{ $t("content.children.leaderTitle4") }}</p>
         <p><a @click="toAtlas"><i>{{ $t("content.children.atlasLink7") }}</i></a></p>
         <p><a @click="toFriendly"><i>{{ $t("content.children.atlasLink2") }}</i></a></p>

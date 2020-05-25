@@ -1,7 +1,7 @@
 <template>
   <div class="hello">
     <header style="position: fixed;width: 100%;background-color: white">
-      <div style="width: 12%; float:left;">
+      <div style="width: 10%; float:left;">
         <img v-if="this.$i18n.locale === 'en'" src="@/assets/logoe.png" style="width: 100%;float: left;height: 100%;">
         <img v-else src="../../src/assets/logo.png" style="width: 100%;float: left;height: 100%;">
       </div>
