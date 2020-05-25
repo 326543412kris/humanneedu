@@ -26,11 +26,29 @@ import koko from '@/components/picBook/koko'
 import cookie from '@/components/picBook/cookie'
 import fur from '@/components/picBook/fur'
 import dakota from '@/components/picBook/dakota'
+import voiceSalon from "../components/voiceSalon";
+import certify from "../components/certificate";
+import workshop from "../components/workshop";
 
 Vue.use(Router)
 
 export default new Router({
   routes: [
+    {
+      path: '/certificate',
+      name: 'certificate',
+      component: certify
+    },
+    {
+      path: '/workshop',
+      name: 'workshop',
+      component: workshop
+    },
+    {
+      path: '/voiceSalon',
+      name: 'voiceSalon',
+      component: voiceSalon
+    },
     {
       path: '/courseCompass',
       name: 'course',
