@@ -48,14 +48,14 @@
   #lightGreen {
     margin: 50px auto;
     text-align: center;
-    background-color: #ffffff;
+    background-color: #88bf73;
     color: #000000;
   }
 
   #white {
     margin: 50px auto;
     text-align: center;
-    background-color: #ffffff;
+    background-color: #efefef;
     color: #000000;
   }
   .title{

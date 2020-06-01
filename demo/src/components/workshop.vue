@@ -46,7 +46,7 @@
   #white {
     margin: 50px auto;
     text-align: center;
-    background-color: #ffffff;
+    background-color: #efefef;
     color: #000000;
   }
   .title{
