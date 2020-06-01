@@ -55,7 +55,7 @@
     margin: 50px auto;
     text-align: left;
     font-size: 22px;
-    background-color: #ffffff;
+    background-color: #88bf73;
     color: #000000;
     top: 0;
   }
@@ -63,7 +63,7 @@
   #lightGreen {
     margin: 50px auto;
     text-align: center;
-    background-color: #ffffff;
+    background-color: #48b78f;
     color: #000000;
   }
 

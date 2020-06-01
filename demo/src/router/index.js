@@ -35,6 +35,11 @@ Vue.use(Router)
 export default new Router({
   routes: [
     {
+      path: '/',
+      name: 'home',
+      component: home
+    },
+    {
       path: '/certificate',
       name: 'certificate',
       component: certify

@@ -35,7 +35,7 @@
   position: absolute;
   width: 100%;
   letter-spacing: 1px;
-  background-color: #eeeeee;
+  background-color: #ffffff;
 }
 pre {
   font-family: 'Times New Roman', Helvetica, Arial, sans-serif;

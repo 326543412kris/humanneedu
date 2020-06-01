@@ -149,7 +149,7 @@
     font-size: large;
     line-height: 28px;
     letter-spacing: 0px;
-    background-color: #ffffff;
+    background-color: #efefef;
     margin: 50px auto;
     width: 70%;
     z-index: -2;
@@ -161,4 +161,5 @@
     text-align: center;
     font-size: x-large;
   }
+
 </style>

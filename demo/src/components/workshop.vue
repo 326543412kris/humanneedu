@@ -7,11 +7,11 @@
       <p class="text" style="margin-top: 10px">{{ $t("content.workshop.text3") }}</p>
       <pre class="text1" style="margin-top: 10px">{{ $t("content.workshop.text31") }}</pre>
     </el-card>
-    <el-card class="content" shadow="hover" id="green">
+    <el-card v-if="this.$i18n.locale === 'zh'" class="content" shadow="hover" id="green">
       <p class="title" style="margin-top: 10px">{{ $t("content.workshop.Title2") }}</p>
       <img  src="@/assets/RealValueE.jpg" style="width: 80%;margin-left: 10%">
     </el-card>
-    <el-card class="content" shadow="hover" id="lightGreen">
+    <el-card v-if="this.$i18n.locale === 'zh'" class="content" shadow="hover" id="lightGreen">
       <p class="title" style="margin-top: 10px">{{ $t("content.workshop.Title3") }}</p>
       <p class="text" style="margin-top: 10px"><a href="https://mp.weixin.qq.com/s/sJLgi_RqFAJ1MGwNaOqGKQ">{{ $t("content.workshop.text4") }}</a></p>
       <p class="text" style="margin-top: 10px"><a href="https://mp.weixin.qq.com/s/L4FmY_Fev1dsOCqwDtWsbA">{{ $t("content.workshop.text5") }}</a></p>

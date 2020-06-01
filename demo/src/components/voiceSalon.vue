@@ -7,7 +7,7 @@
       <p class="text" style="margin-top: 10px">{{ $t("content.voice.text3") }}</p>
       <pre class="text1" style="margin-top: 10px">{{ $t("content.workshop.text31") }}</pre>
     </el-card>
-    <el-card class="content" shadow="hover" id="lightGreen">
+    <el-card v-if="this.$i18n.locale === 'zh'" class="content" shadow="hover" id="lightGreen">
       <p class="title" style="margin-top: 10px">{{ $t("content.voice.Title2") }}</p>
       <p class="text" style="margin-top: 10px"><a href="https://mp.weixin.qq.com/s/umN-Iwn2ZNAIj8m_vuHYpg">{{ $t("content.voice.text4") }}</a></p>
       <p class="text" style="margin-top: 10px"><a href="https://mp.weixin.qq.com/s/lT0kdleevUnMAQmLKNLt6w">{{ $t("content.voice.text5") }}</a></p>

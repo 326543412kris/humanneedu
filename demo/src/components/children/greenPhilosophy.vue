@@ -6,21 +6,21 @@
         <p class="title" style="margin-top: 0px">{{ $t("content.children.greenTitle1") }}</p>
         <p class="text">{{ $t("content.children.green11") }}</p>
         <p class="text">{{ $t("content.children.green12") }}</p>
-        <img src="@/assets/bg12.jpg" style="width: 90%">
+        <img src="@/assets/bg12.jpg" style="width: 75%">
         <p class="title" style="margin-top: 0px">{{ $t("content.children.greenTitle2") }}</p>
         <p class="text">{{ $t("content.children.green21") }}</p>
         <p class="title" style="margin-top: 0px">{{ $t("content.children.greenTitle3") }}</p>
         <p class="text">{{ $t("content.children.green31") }}</p>
         <p class="text">{{ $t("content.children.green32") }}</p>
         <p class="text">{{ $t("content.children.green33") }}</p>
-        <img src="@/assets/bg14.jpg" style="width: 90%">
+        <img src="@/assets/bg14.jpg" style="width: 75%">
         <p class="title" style="margin-top: 0px">{{ $t("content.children.greenTitle4") }}</p>
         <p class="text">{{ $t("content.children.green41") }}</p>
         <p class="text">{{ $t("content.children.green42") }}</p>
         <p class="title" style="margin-top: 0px">{{ $t("content.children.greenTitle5") }}</p>
         <p class="text">{{ $t("content.children.green51") }}</p>
         <p class="text">{{ $t("content.children.green52") }}</p>
-        <img src="@/assets/bg13.jpg" style="width: 90%">
+        <img src="@/assets/bg13.jpg" style="width: 75%">
         <p class="title" style="margin-top: 0px">{{ $t("content.children.greenTitle6") }}</p>
         <p class="text">{{ $t("content.children.green61") }}</p>
         <p class="text">{{ $t("content.children.green62") }}</p>
@@ -99,7 +99,7 @@
     font-size: large;
     line-height: 28px;
     letter-spacing: 0px;
-    background-color: #ffffff;
+    background-color: #efefef;
     margin: 50px auto;
     width: 70%;
     z-index: -2;
