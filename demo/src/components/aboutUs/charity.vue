@@ -19,7 +19,7 @@
       <img v-if="this.$i18n.locale === 'zh'" src="@/assets/charity2.jpg" style="width: 80%;margin-left: 10%">
       <img v-if="this.$i18n.locale === 'en'" src="@/assets/charity2E.jpg" style="width: 80%;margin-left: 10%">
     </el-card>
-    <el-card class="content" shadow="hover" id="lightGreen">
+    <el-card v-if="this.$i18n.locale === 'zh'" class="content" shadow="hover" id="lightGreen">
       <p class="title" style="margin-top: 10px">{{ $t("content.aboutUs.charityTitle3") }}</p>
       <p class="text2" style="margin-right: 10px">{{ $t("content.aboutUs.charityTitleText") }}</p>
       <p class="title2" style="margin-top: 10px">{{ $t("content.aboutUs.charity31") }}</p>
@@ -77,12 +77,14 @@
     padding: 20px;
     text-align: center;
     font-size: xx-large;
+    font-weight: bolder;
   }
   .title2{
     text-indent: 0px;
     text-align: left;
     padding: 10px;
     font-size: x-large;
+    font-weight: bold;
   }
   .text{
     text-indent: 32px;
@@ -94,10 +96,11 @@
     text-align: right;
   }
   .content {
+    text-align: center;
     color: white;
     font-size: 22px;
     line-height: 28px;
-    letter-spacing: 0px;
+    letter-spacing: 1px;
     background-color: #48b78f;
     margin: 50px auto;
     width: 70%;

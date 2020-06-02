@@ -50,8 +50,8 @@
   }
 
   .box-card {
-    width: 92%;
-    height: 550px;
+    width: 100%;
+    height: 650px;
     z-index: -2;
     border-radius:10px;
     box-shadow:10px 10px 5px #ccc;

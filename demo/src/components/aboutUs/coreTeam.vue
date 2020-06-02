@@ -48,6 +48,7 @@
     padding: 20px;
     text-align: center;
     font-size: xx-large;
+    font-weight: bolder;
   }
   .text{
     text-align: center;

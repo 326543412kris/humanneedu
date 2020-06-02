@@ -20,16 +20,16 @@
         <p class="title" style="margin-left: 30px"><a @click="toProfessional"><i>•{{ $t("growth.link1") }}</i></a></p>
         <p class="title" style="margin-left: 30px"><a @click="toWorkshops"><i>•{{ $t("growth.link2") }}</i></a></p>
         <p class="title" style="margin-left: 30px"><a @click="toVoiceSalon"><i>•{{ $t("growth.link3") }}</i></a></p>
-        <img src="@/assets/gzf1.jpg" style="width: 95%">
-        <img src="@/assets/gzf2.jpg" style="width: 95%">
-        <img src="@/assets/gzf3.jpg" style="width: 95%">
-        <img src="@/assets/gzf4.jpg" style="width: 95%">
-        <img src="@/assets/gzf5.jpg" style="width: 95%">
-        <img src="@/assets/gzf6.jpg" style="width: 95%">
-        <img src="@/assets/gzf7.jpg" style="width: 95%">
-        <img src="@/assets/gzf8.jpg" style="width: 95%">
-        <img src="@/assets/gzf9.jpg" style="width: 95%">
-        <img src="@/assets/gzf10.jpg" style="width: 95%">
+        <img src="@/assets/gzf1.jpg" style="width: 40%">
+        <img src="@/assets/gzf3.jpg" style="width: 40%">
+        <img src="@/assets/gzf8.jpg" style="width: 40%">
+        <img src="@/assets/gzf5.jpg" style="width: 40%">
+        <img src="@/assets/gzf6.jpg" style="width: 40%">
+        <img src="@/assets/gzf7.jpg" style="width: 40%">
+        <img src="@/assets/gzf2.jpg" style="width: 40%">
+        <img src="@/assets/gzf4.jpg" style="width: 40%">
+        <img src="@/assets/gzf9.jpg" style="width: 40%">
+        <img src="@/assets/gzf10.jpg" style="width: 40%">
 
 
         <p></p>
@@ -89,7 +89,7 @@
   }
   .content {
     color: black;
-    font-size: 22px;
+    font-size: 20px;
     line-height: 32px;
     letter-spacing: 1px;
     background-color: #ffffff;

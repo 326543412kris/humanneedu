@@ -1,7 +1,7 @@
 <template>
   <div>
     <el-container class="content">
-      <el-header style="font-size: xx-large;margin-top: 30px">{{ $t("content.children.atlasTitle1") }}</el-header>
+      <el-header style="font-size: xx-large;margin-top: 30px;font-weight: bolder">{{ $t("content.children.atlasTitle1") }}</el-header>
       <el-main>
         <p class="title" style="margin-top: 0px">{{ $t("content.children.atlasTitle2") }}</p>
         <p class="text">{{ $t("content.children.atlas1") }}</p>
@@ -82,4 +82,5 @@
     border-radius:10px;
     box-shadow:10px 10px 10px 10px #ccc;
   }
+
 </style>

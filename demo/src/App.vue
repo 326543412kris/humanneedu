@@ -37,6 +37,27 @@
   letter-spacing: 1px;
   background-color: #ffffff;
 }
+.title {
+  font-weight: bolder;
+}
+.title1 {
+  font-weight: bold;
+}
+.text{
+  padding: 50px;
+}
+*{
+  -webkit-touch-callout:none;  /*系统默认菜单被禁用*/
+  -webkit-user-select:none; /*webkit浏览器*/
+  -khtml-user-select:none; /*早期浏览器*/
+  -moz-user-select:none;/*火狐*/
+  -ms-user-select:none; /*IE10*/
+  user-select:none;
+}
+.content{
+  width: 60%;
+  padding: 30px;
+}
 pre {
   font-family: 'Times New Roman', Helvetica, Arial, sans-serif;
 }
