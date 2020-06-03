@@ -1,15 +1,12 @@
 <template>
   <div class="hello">
     <header style="position: fixed;width: 100%;background-color: white">
-      <div style="width: 10%; float:left;">
-        <img v-if="this.$i18n.locale === 'en'" src="@/assets/logoe.png" style="width: 100%;float: left;height: 100%;">
-        <img v-else src="../../src/assets/logo.png" style="width: 100%;float: left;height: 100%;">
+      <div style="width: 15%; float:left;padding-left: 15%">
+        <img v-if="this.$i18n.locale === 'en'" src="../../src/assets/logoe.png" style="float: left;height: 100%;">
+        <img v-else src="../../src/assets/logo.png" style="float: left;height: 100%;">
       </div>
-<!--      <div style="width: 18%;float: left;text-align: left;cursor:pointer;" @click="toHome">-->
-<!--&lt;!&ndash;        <h2 style="margin: auto;padding: 17px;color: #48b78f" >{{ $t("message.title") }}</h2>&ndash;&gt;-->
-<!--      </div>-->
-      <div style="width: 70%;float: right;">
-        <el-menu router class="el-menu-demo" style="float: right;"
+      <div style="width: 65%;float: left;">
+        <el-menu router class="el-menu-demo" style="float: left;"
                   active-text-color="#48b78f"
                  :default-active="activeIndex" mode="horizontal" @select="handleSelect">
           <el-menu-item index="home">{{ $t("menu.home") }}</el-menu-item>
@@ -43,61 +40,62 @@
             <el-menu-item index="workshop">{{ $t("educators.workshop") }}</el-menu-item>
             <el-menu-item index="voiceSalon">{{ $t("educators.voiceSalon") }}</el-menu-item>
           </el-submenu>
-          <el-menu-item @click="changeLocale"
-                        onmouseover="this.style.cursor='pointer'"><u>{{ $t("menu.lang") }}</u></el-menu-item>
+<!--          <el-menu-item @click="changeLocale"-->
+<!--                        onmouseover="this.style.cursor='pointer'"><u>{{ $t("menu.lang") }}</u></el-menu-item>-->
         </el-menu>
       </div>
-    </header>
-  </div>
-</template>
+      <div style="width: 5%;float: right;font-size: 18px;line-height: 80px;color: #bbbbbb" @click="changeLocale"  onmouseover="this.style.cursor='pointer'"><u>{{ $t("menu.lang") }}</u></div>
+            </header>
+          </div>
+        </template>
 
-<script>
-    export default {
-        name: 'Header',
-        data() {
-            return {
-              activeIndex: "home"
-            }
-        },
-        methods: {
-            toHome() {
-                this.$router.push("/home");
-                window.location.reload();
-            },
-            handleSelect(key, keyPath) {
-                this.activeIndex = key;
-                if (key === 1) {
-                    this.$router.push("/home");
-                }
-            },
-            changeLocale() {
-                this.$confirm(this.$t('layer.toggle'), this.$t('layer.tips'), {
-                    confirmButtonText: this.$t('button.ok'),
-                    cancelButtonText: this.$t('button.cancel'),
-                    type: 'warning'
-                }).then(() => {
-                    let locale = this.$i18n.locale;
-                    if (locale === 'zh') {
-                        localStorage.setItem('locale', 'en');
-                        this.$i18n.locale = localStorage.getItem('locale');
-                    } else if (locale === 'en'){
-                        localStorage.setItem('locale', 'zh');
-                        this.$i18n.locale = localStorage.getItem('locale');
+        <script>
+            export default {
+                name: 'Header',
+                data() {
+                    return {
+                      activeIndex: "home"
                     }
-                }).catch(() => {
-                    this.$message({
-                        type: 'info',
-                    })
-                })
+                },
+                methods: {
+                    toHome() {
+                        this.$router.push("/home");
+                        window.location.reload();
+                    },
+                    handleSelect(key, keyPath) {
+                        this.activeIndex = key;
+                        if (key === 1) {
+                            this.$router.push("/home");
+                        }
+                    },
+                    changeLocale() {
+                        this.$confirm(this.$t('layer.toggle'), this.$t('layer.tips'), {
+                            confirmButtonText: this.$t('button.ok'),
+                            cancelButtonText: this.$t('button.cancel'),
+                            type: 'warning'
+                        }).then(() => {
+                            let locale = this.$i18n.locale;
+                            if (locale === 'zh') {
+                                localStorage.setItem('locale', 'en');
+                                this.$i18n.locale = localStorage.getItem('locale');
+                            } else if (locale === 'en'){
+                                localStorage.setItem('locale', 'zh');
+                                this.$i18n.locale = localStorage.getItem('locale');
+                            }
+                        }).catch(() => {
+                            this.$message({
+                                type: 'info',
+                            })
+                        })
+                    }
+                },
+                mounted() {
+                    this.activeIndex = this.$route.name;
+                },
             }
-        },
-        mounted() {
-            this.activeIndex = this.$route.name;
-        },
-    }
-</script>
+        </script>
 
-<!-- Add "scoped" attribute to limit CSS to this component only -->
+        <!-- Add "scoped" attribute to limit CSS to this component only -->
 <style scoped>
   el-menu-item style {
     font-size: 20px !important;
@@ -106,7 +104,7 @@
     left: 0;
     top: 0;
     width: 100%;
-    height: 60px;
+    height: 80px;
   }
 
   h1, h2 {
@@ -114,7 +112,26 @@
   }
 
   header {
-    height: 62px;
+    height: 82px;
+    border-bottom: 2px solid transparent;
   }
 
+</style>
+
+<style>
+  .el-menu--horizontal>.el-menu-item {
+    height: 80px;
+    line-height: 80px;
+    border-bottom: 2px solid transparent;
+    font-size: 18px;
+  }
+  .el-menu--horizontal>.el-submenu .el-menu-item {
+    font-size: 30px;
+  }
+  .el-menu--horizontal>.el-submenu .el-submenu__title {
+    height: 80px;
+    line-height: 80px;
+    border-bottom: 2px solid transparent;
+    font-size: 18px;
+  }
 </style>
