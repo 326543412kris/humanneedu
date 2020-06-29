@@ -9,7 +9,16 @@
     </el-card>
     <el-card v-if="this.$i18n.locale === 'zh'" class="content" shadow="hover" id="green">
       <p class="title" style="margin-top: 10px">{{ $t("content.workshop.Title2") }}</p>
-      <img  src="@/assets/RealValueE.jpg" style="width: 80%;margin-left: 10%">
+      <div style="width: 100%;margin-left: 8%"><img src="@/assets/gzf1.jpg" style="width: 40%">
+      <img src="@/assets/gzf3.jpg" style="width: 40%">
+      <img src="@/assets/gzf8.jpg" style="width: 40%">
+      <img src="@/assets/gzf5.jpg" style="width: 40%">
+      <img src="@/assets/gzf6.jpg" style="width: 40%">
+      <img src="@/assets/gzf7.jpg" style="width: 40%">
+      <img src="@/assets/gzf2.jpg" style="width: 40%">
+      <img src="@/assets/gzf4.jpg" style="width: 40%">
+      <img src="@/assets/gzf9.jpg" style="width: 40%">
+        <img src="@/assets/gzf10.jpg" style="width: 40%"></div>
     </el-card>
     <el-card v-if="this.$i18n.locale === 'zh'" class="content" shadow="hover" id="lightGreen">
       <p class="title" style="margin-top: 10px">{{ $t("content.workshop.Title3") }}</p>

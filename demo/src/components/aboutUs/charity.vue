@@ -54,7 +54,6 @@
   #green {
     margin: 50px auto;
     text-align: left;
-    font-size: 22px;
     background-color: #88bf73;
     color: #000000;
     top: 0;
@@ -98,7 +97,7 @@
   .content {
     text-align: center;
     color: white;
-    font-size: 22px;
+    font-size: large;
     line-height: 28px;
     letter-spacing: 1px;
     background-color: #48b78f;

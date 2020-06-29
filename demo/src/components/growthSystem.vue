@@ -1,7 +1,7 @@
 <template>
   <div>
     <el-container class="content">
-      <el-header style="font-size: xx-large;margin-top: 30px">{{ $t("growth.title") }}</el-header>
+      <el-header style="font-size: x-large;margin-top: 30px">{{ $t("growth.title") }}</el-header>
       <el-main>
         <p class="text" >{{ $t("growth.text1") }}</p>
         <p class="text" >
@@ -20,16 +20,8 @@
         <p class="title" style="margin-left: 30px"><a @click="toProfessional"><i>•{{ $t("growth.link1") }}</i></a></p>
         <p class="title" style="margin-left: 30px"><a @click="toWorkshops"><i>•{{ $t("growth.link2") }}</i></a></p>
         <p class="title" style="margin-left: 30px"><a @click="toVoiceSalon"><i>•{{ $t("growth.link3") }}</i></a></p>
-        <img src="@/assets/gzf1.jpg" style="width: 40%">
-        <img src="@/assets/gzf3.jpg" style="width: 40%">
-        <img src="@/assets/gzf8.jpg" style="width: 40%">
-        <img src="@/assets/gzf5.jpg" style="width: 40%">
-        <img src="@/assets/gzf6.jpg" style="width: 40%">
-        <img src="@/assets/gzf7.jpg" style="width: 40%">
-        <img src="@/assets/gzf2.jpg" style="width: 40%">
-        <img src="@/assets/gzf4.jpg" style="width: 40%">
-        <img src="@/assets/gzf9.jpg" style="width: 40%">
-        <img src="@/assets/gzf10.jpg" style="width: 40%">
+        <img v-if="this.$i18n.locale === 'zh'" src="@/assets/doing1.jpg" style="width: 90%">
+        <img v-if="this.$i18n.locale === 'en'" src="@/assets/doing1E.jpg" style="width: 90%">
 
 
         <p></p>
@@ -86,6 +78,7 @@
     text-indent: 32px;
     text-align: left;
     padding: 10px;
+    font-size: large;
   }
   .content {
     color: black;

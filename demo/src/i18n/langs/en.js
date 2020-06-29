@@ -20,8 +20,8 @@ module.exports = {
   children: {
     atlas: 'Course Map',
     earlyPicLesson: 'Picture Books Course',
-    friendlyLesson: 'Children’s Kindness Community Course',
-    leadershipLesson: 'Adolescents’ Kindness Leadership Course',
+    friendlyLesson: 'Children\'s Kindness Community Course',
+    leadershipLesson: 'Adolescents\' Kindness Leadership Course',
     gardenSchool: 'School and Home Gardening Course',
     greenPhilosophy: 'Green P4C: Environmental Ethics',
     guardiansOfNature: 'Little Guardians of Nature Camp Course',
@@ -106,13 +106,13 @@ module.exports = {
       atlas3:"The courses at primary school are about recognizing the connection between people, animals and the environment, and developing children's critical thinking and sense of responsibility for the planet.",
       atlas4:"The courses at middle school focus on developing the ability of adolescents to solve real-world problems, to provide positive solutions that are friendly to people, animals and the environment, and to develop leadership that is kind in helping other people and other life.",
       atlasLink1:"•Children's “Kind Animals” Picture-Book Course",
-      atlasLink2:"•Children’s Kindness Community Course",
-      atlasLink3:"•Adolescents’ Kindness Leadership Course",
+      atlasLink2:"•Children's Kindness Community Course",
+      atlasLink3:"•Adolescents' Kindness Leadership Course",
       atlasLink4:"•School and Home Gardening Course",
       atlasLink5:"•Green Philosophy for Children – An Environmental Ethics Course",
       atlasLink6:"•Little Guardians of Nature ® Series of Camp Course",
       atlasLink7:"•Course Map",
-      leaderTitle1:"Adolescents’ Kindness Leadership Course",
+      leaderTitle1:"Adolescents' Kindness Leadership Course",
       leaderTitle2:"•How to develop kindness leadership",
       leaderTitle3:"•Course content",
       leaderTitle4:"•More lessons for children and adolescents",
@@ -357,7 +357,7 @@ module.exports = {
       text8:"The advanced-level certification course consists of an eight-week online learning and a four-week offline practice that focuses on teaching skills and application scenarios for humane education, supplemented by different types of humane education practice cases. Participants will also complete a humane education project through offline project-based learning to serve the community around them.",
       text9:"The training objectives of the advanced-level certification course are as follows:",
       text10:"• pay attention to the practices and cases of humane education in different situations\n" +
-        "• improve participants’ teaching skills in humane education\n" +
+        "• improve participants' teaching skills in humane education\n" +
         "• learn the four elements of human education and use them in designing and implementing lessons and understand how they will affect the quality of humane education\n" +
         "• understand public communication strategies and their effects\n" +
         "• be able to integrate humane education into their working or different environments\n",

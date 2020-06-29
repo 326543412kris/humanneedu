@@ -22,7 +22,7 @@
         <img src="@/assets/garden2.jpg" style="width: 70%">
         <img src="@/assets/garden3.jpg" style="width: 70%">
         <img src="@/assets/garden4.jpg" style="width: 70%">
-        <img src="@/assets/garden6.jpg" style="width: 70%">
+<!--        <img src="@/assets/garden6.jpg" style="width: 70%">-->
         <p class="title1" style="margin-top: 0px">{{ $t("content.children.leaderTitle4") }}</p>
         <p><a @click="toEarlyPicLesson"><i>{{ $t("content.children.atlasLink1") }}</i></a></p>
         <p><a @click="toFriendly"><i>{{ $t("content.children.atlasLink2") }}</i></a></p>
