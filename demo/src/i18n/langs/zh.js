@@ -12,6 +12,7 @@ module.exports = {
     children: '儿童青少年课程',
     picture: '仁爱绘本',
     educators: '成为仁爱教育者',
+    source: '学习资源',
     natureSchool: '爱意自然学校',
     doingNow: '我们的行动',
     coreTeam: '核心团队',
@@ -361,6 +362,9 @@ module.exports = {
         "•\t了解公众传播策略及其影响效果。\n" +
         "•\t能够将仁爱教育融入到自己的工作或不同的环境中。\n",
       text11:"欢迎你成为仁爱教育者，欢迎咨询“爱意小秘书”了解详情，微信号：REALaiyi",
+    },
+    source: {
+      Title1:"学习资源",
     },
     workshop: {
       Title1:"工作坊",

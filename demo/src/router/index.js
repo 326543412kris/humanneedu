@@ -29,6 +29,7 @@ import dakota from '@/components/picBook/dakota'
 import voiceSalon from "../components/voiceSalon";
 import certify from "../components/certificate";
 import workshop from "../components/workshop";
+import source from "../components/source";
 
 Vue.use(Router)
 
@@ -43,6 +44,11 @@ export default new Router({
       path: '/certificate',
       name: 'certificate',
       component: certify
+    },
+    {
+      path: '/source',
+      name: 'source',
+      component: source
     },
     {
       path: '/workshop',

@@ -8,6 +8,29 @@
         <p class="text">{{ $t("content.children.nature12") }}</p>
         <p class="text">{{ $t("content.children.nature13") }}</p>
         <p class="text">{{ $t("content.children.nature14") }}</p>
+        <div class="block" style="width: 100%;">
+          <span class="demonstration"></span>
+          <el-carousel height="600px">
+            <el-carousel-item>
+              <img src="@/assets/pic/nature1.jpg" style="width: 100%">
+            </el-carousel-item>
+            <el-carousel-item>
+              <img src="@/assets/pic/nature2.jpg" style="width: 100%">
+            </el-carousel-item>
+            <el-carousel-item>
+              <img src="@/assets/pic/nature3.jpg" style="width: 100%">
+            </el-carousel-item>
+            <el-carousel-item>
+              <img src="@/assets/pic/nature4.jpg" style="width: 100%" >
+            </el-carousel-item>
+            <el-carousel-item>
+              <img src="@/assets/pic/nature5.jpg" style="width: 100%">
+            </el-carousel-item>
+            <el-carousel-item>
+              <img src="@/assets/pic/nature6.jpg" style="width: 100%">
+            </el-carousel-item>
+          </el-carousel>
+        </div>
         <p class="title" style="margin-top: 0px">{{ $t("content.children.natureTitle2") }}</p>
         <p class="text">{{ $t("content.children.nature21") }}</p>
         <p class="text">{{ $t("content.children.nature22") }}</p>

@@ -12,6 +12,7 @@ module.exports = {
     children: 'Youth Program',
     picture: 'Humane Picture Books',
     educators: 'Humane Educator Program',
+    source: 'Study Videos',
     natureSchool: 'Nature School',
     doingNow: 'Our Actions',
     coreTeam: 'Core Team',
@@ -362,6 +363,9 @@ module.exports = {
         "• understand public communication strategies and their effects\n" +
         "• be able to integrate humane education into their working or different environments\n",
       text11:"Welcome to become a humane educator. Please consult us for details. ",
+    },
+    source: {
+      Title1:"Study videos",
     },
     workshop: {
       Title1:"Workshops",

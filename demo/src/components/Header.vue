@@ -40,6 +40,7 @@
             <el-menu-item index="workshop">{{ $t("educators.workshop") }}</el-menu-item>
             <el-menu-item index="voiceSalon">{{ $t("educators.voiceSalon") }}</el-menu-item>
           </el-submenu>
+          <el-menu-item index="source">{{ $t("menu.source") }}</el-menu-item>
 <!--          <el-menu-item @click="changeLocale"-->
 <!--                        onmouseover="this.style.cursor='pointer'"><u>{{ $t("menu.lang") }}</u></el-menu-item>-->
         </el-menu>

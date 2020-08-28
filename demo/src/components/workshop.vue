@@ -9,21 +9,49 @@
     </el-card>
     <el-card v-if="this.$i18n.locale === 'zh'" class="content" shadow="hover" id="green">
       <p class="title" style="margin-top: 10px">{{ $t("content.workshop.Title2") }}</p>
-      <div style="width: 100%;margin-left: 8%"><img src="@/assets/gzf1.jpg" style="width: 40%">
-      <img src="@/assets/gzf3.jpg" style="width: 40%">
-      <img src="@/assets/gzf8.jpg" style="width: 40%">
-      <img src="@/assets/gzf5.jpg" style="width: 40%">
-      <img src="@/assets/gzf6.jpg" style="width: 40%">
-      <img src="@/assets/gzf7.jpg" style="width: 40%">
-      <img src="@/assets/gzf2.jpg" style="width: 40%">
-      <img src="@/assets/gzf4.jpg" style="width: 40%">
-      <img src="@/assets/gzf9.jpg" style="width: 40%">
-        <img src="@/assets/gzf10.jpg" style="width: 40%"></div>
+      <div class="block" style="width: 100%;">
+        <span class="demonstration"></span>
+        <el-carousel height="600px">
+          <el-carousel-item>
+            <img src="@/assets/gzf1.jpg" style="width: 100%">
+          </el-carousel-item>
+          <el-carousel-item>
+            <img src="@/assets/gzf2.jpg" style="width: 100%">
+          </el-carousel-item>
+          <el-carousel-item>
+            <img src="@/assets/gzf3.jpg" style="width: 100%">
+          </el-carousel-item>
+          <el-carousel-item>
+            <img src="@/assets/gzf4.jpg" style="width: 100%">
+          </el-carousel-item>
+          <el-carousel-item>
+            <img src="@/assets/gzf5.jpg" style="width: 100%">
+          </el-carousel-item>
+          <el-carousel-item>
+            <img src="@/assets/gzf6.jpg" style="width: 100%">
+          </el-carousel-item>
+          <el-carousel-item>
+            <img src="@/assets/gzf7.jpg" style="width: 100%">
+          </el-carousel-item>
+          <el-carousel-item>
+            <img src="@/assets/gzf8.jpg" style="width: 100%">
+          </el-carousel-item>
+          <el-carousel-item>
+            <img src="@/assets/gzf9.jpg" style="width: 100%">
+          </el-carousel-item>
+          <el-carousel-item>
+            <img src="@/assets/gzf10.jpg" style="">
+          </el-carousel-item>
+        </el-carousel>
+      </div>
+
     </el-card>
     <el-card v-if="this.$i18n.locale === 'zh'" class="content" shadow="hover" id="lightGreen">
       <p class="title" style="margin-top: 10px">{{ $t("content.workshop.Title3") }}</p>
-      <p class="text" style="margin-top: 10px"><a href="https://mp.weixin.qq.com/s/sJLgi_RqFAJ1MGwNaOqGKQ">{{ $t("content.workshop.text4") }}</a></p>
-      <p class="text" style="margin-top: 10px"><a href="https://mp.weixin.qq.com/s/L4FmY_Fev1dsOCqwDtWsbA">{{ $t("content.workshop.text5") }}</a></p>
+      <p class="text" style="margin-top: 10px"><a href="https://mp.weixin.qq.com/s/sJLgi_RqFAJ1MGwNaOqGKQ">{{
+        $t("content.workshop.text4") }}</a></p>
+      <p class="text" style="margin-top: 10px"><a href="https://mp.weixin.qq.com/s/L4FmY_Fev1dsOCqwDtWsbA">{{
+        $t("content.workshop.text5") }}</a></p>
     </el-card>
   </div>
 </template>
@@ -58,21 +86,25 @@
     background-color: #efefef;
     color: #000000;
   }
-  .title{
+
+  .title {
     padding: 20px;
     text-align: center;
     font-size: x-large;
   }
-  .text{
+
+  .text {
     text-indent: 32px;
     text-align: left;
     padding: 10px;
     line-height: 40px;
   }
+
   .text1 {
     text-align: left;
     padding: 20px;
   }
+
   .content {
     color: white;
     font-size: large;
@@ -82,7 +114,7 @@
     margin: 50px auto;
     width: 70%;
     z-index: -2;
-    border-radius:10px;
-    box-shadow:10px 10px 10px 10px #ccc;
+    border-radius: 10px;
+    box-shadow: 10px 10px 10px 10px #ccc;
   }
 </style>
