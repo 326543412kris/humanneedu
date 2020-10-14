@@ -2,13 +2,33 @@
   <div>
     <el-card class="content" shadow="hover" id="white">
       <p class="title" style="margin-top: 10px">{{ $t("content.source.Title1") }}</p>
+      <div style="height: 100%;width:100%">
+        <iframe style="width:50%;height: 540px" src="//player.bilibili.com/player.html?aid=20422893&bvid=BV1oW411x7tP&cid=33384035&page=1" scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true"> </iframe>
+      </div>
+<!--      <div v-on:click="playVideo()">-->
+<!--        <video :src="videoSrc" controls id="videoPlay" v-show="true" class="video">您的浏览器不支持 video 视屏播放。</video>-->
+<!--      </div>-->
     </el-card>
   </div>
 </template>
 
 <script>
   export default {
-    name: "source"
+    name: "source",
+    data() {
+      return {
+        videoSrc: "https://www.bilibili.com/video/BV1oW411x7tP/", //获取视频播放资源路径
+      };
+    },
+    methods: {
+      playVideo() {
+        console.log('播放')
+        let vdo = document.getElementById("videoPlay");
+        vdo.play();
+        console.log(vdo)
+        console.log(this)
+      },
+    },
   }
 </script>
 
