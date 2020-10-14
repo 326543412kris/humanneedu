@@ -10,10 +10,7 @@
         <p class="text">{{ $t("content.children.nature14") }}</p>
         <div class="block" style="width: 100%;">
           <span class="demonstration"></span>
-          <el-carousel height="600px">
-            <el-carousel-item>
-              <img src="@/assets/pic/nature1.jpg" style="width: 100%">
-            </el-carousel-item>
+          <el-carousel height="1200px">
             <el-carousel-item>
               <img src="@/assets/pic/nature2.jpg" style="width: 100%">
             </el-carousel-item>

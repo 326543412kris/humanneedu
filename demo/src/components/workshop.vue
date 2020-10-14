@@ -11,16 +11,16 @@
       <p class="title" style="margin-top: 10px">{{ $t("content.workshop.Title2") }}</p>
       <div class="block" style="width: 100%;">
         <span class="demonstration"></span>
-        <el-carousel height="600px">
-          <el-carousel-item>
-            <img src="@/assets/gzf1.jpg" style="width: 100%">
-          </el-carousel-item>
+        <el-carousel height="1200px">
+<!--          <el-carousel-item>-->
+<!--            <img src="@/assets/gzf1.jpg" style="width: 100%">-->
+<!--          </el-carousel-item>-->
           <el-carousel-item>
             <img src="@/assets/gzf2.jpg" style="width: 100%">
           </el-carousel-item>
-          <el-carousel-item>
-            <img src="@/assets/gzf3.jpg" style="width: 100%">
-          </el-carousel-item>
+<!--          <el-carousel-item>-->
+<!--            <img src="@/assets/gzf3.jpg" style="width: 100%">-->
+<!--          </el-carousel-item>-->
           <el-carousel-item>
             <img src="@/assets/gzf4.jpg" style="width: 100%">
           </el-carousel-item>
@@ -36,12 +36,12 @@
           <el-carousel-item>
             <img src="@/assets/gzf8.jpg" style="width: 100%">
           </el-carousel-item>
-          <el-carousel-item>
-            <img src="@/assets/gzf9.jpg" style="width: 100%">
-          </el-carousel-item>
-          <el-carousel-item>
-            <img src="@/assets/gzf10.jpg" style="">
-          </el-carousel-item>
+<!--          <el-carousel-item>-->
+<!--            <img src="@/assets/gzf9.jpg" style="width: 100%">-->
+<!--          </el-carousel-item>-->
+<!--          <el-carousel-item>-->
+<!--            <img src="@/assets/gzf10.jpg" style="">-->
+<!--          </el-carousel-item>-->
         </el-carousel>
       </div>
 

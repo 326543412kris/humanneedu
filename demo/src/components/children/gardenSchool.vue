@@ -9,7 +9,7 @@
         <p class="text">{{ $t("content.children.garden13") }}</p>
         <div class="block" style="width: 100%;">
           <span class="demonstration"></span>
-          <el-carousel height="600px">
+          <el-carousel height="800px" trigger="click" arrow="always">
             <el-carousel-item>
               <img src="@/assets/garden1.jpg" style="width: 100%">
             </el-carousel-item>

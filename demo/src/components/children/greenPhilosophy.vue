@@ -25,7 +25,7 @@
         <p class="text">{{ $t("content.children.green61") }}</p>
         <p class="text">{{ $t("content.children.green62") }}</p>
         <p class="text">{{ $t("content.children.green63") }}</p>
-        <img src="@/assets/atlas1.png" style="width: 90%">
+        <img src="@/assets/greenL1.jpg" style="width: 90%">
         <p class="text">{{ $t("content.children.green64") }}</p>
         <p class="text">{{ $t("content.children.green65") }}</p>
         <p class="title1" style="margin-top: 0px">{{ $t("content.children.leaderTitle4") }}</p>
