@@ -40,7 +40,7 @@
     margin: 50px auto;
     text-align: left;
     font-size: 20px;
-    background-color: #eeeeee;
+    background-color: #ffffff;
     color: #000000;
     top: 0;
   }
@@ -55,7 +55,7 @@
   #white {
     margin: 50px auto;
     text-align: center;
-    background-color: #88bf73;
+    background-color: #eeeeee;
     color: #000000;
   }
   .title{

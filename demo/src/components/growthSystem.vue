@@ -72,7 +72,7 @@
   .title{
     padding: 20px;
     text-align: left;
-    font-size: xx-large;
+    font-size: x-large;
   }
   .text{
     text-indent: 32px;
@@ -85,7 +85,7 @@
     font-size: 20px;
     line-height: 32px;
     letter-spacing: 1px;
-    background-color: #ffffff;
+    background-color: #eeeeee;
     margin: 50px auto;
     width: 70%;
     z-index: -2;

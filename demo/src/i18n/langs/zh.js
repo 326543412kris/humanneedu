@@ -16,7 +16,7 @@ module.exports = {
     natureSchool: '爱意自然学校',
     doingNow: '我们的行动',
     coreTeam: '核心团队',
-    lang:"English",
+    lang:"ENG",
   },
   children: {
     atlas: '课程图谱',

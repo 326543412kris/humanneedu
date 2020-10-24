@@ -54,7 +54,7 @@
   #green {
     margin: 50px auto;
     text-align: left;
-    background-color: #88bf73;
+    background-color: #ffffff;
     color: #000000;
     top: 0;
   }
@@ -62,7 +62,7 @@
   #lightGreen {
     margin: 50px auto;
     text-align: center;
-    background-color: #48b78f;
+    background-color: #88bf73;
     color: #000000;
   }
 
@@ -70,7 +70,7 @@
     margin: 50px auto;
     text-align: center;
     color: #000000;
-    background-color: #ffffff;
+    background-color: #eeeeee;
   }
   .title{
     padding: 20px;

@@ -1,6 +1,6 @@
 <template>
   <footer class="wrap" id="app-footer">
-    <HR style="width: 92%;height: 5px"/>
+    <HR style="width: 92%;height: 1px"/>
     <div style="width: 50%;float: left;">
       <p>{{ $t("footer.text1") }}</p>
       <p style="margin: 50px">{{ $t("footer.text2") }}</p>
@@ -25,7 +25,8 @@
 </script>
 <style>
   footer {
-    font-size: 22px;
+    color: #bbbbbb;
+    font-size: 18px;
     letter-spacing: 1px;
     width: 100%;
     height: 400px;

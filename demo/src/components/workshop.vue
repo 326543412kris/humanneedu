@@ -9,14 +9,14 @@
     </el-card>
     <el-card v-if="this.$i18n.locale === 'zh'" class="content" shadow="hover" id="green">
       <p class="title" style="margin-top: 10px">{{ $t("content.workshop.Title2") }}</p>
-      <div class="block" style="width: 100%;">
+      <div class="block" style="width: 75%;margin: auto">
         <span class="demonstration"></span>
-        <el-carousel height="1200px">
+        <el-carousel height="650px">
 <!--          <el-carousel-item>-->
 <!--            <img src="@/assets/gzf1.jpg" style="width: 100%">-->
 <!--          </el-carousel-item>-->
           <el-carousel-item>
-            <img src="@/assets/gzf2.jpg" style="width: 100%">
+            <img src="@/assets/gzf6.jpg" style="width: 100%">
           </el-carousel-item>
 <!--          <el-carousel-item>-->
 <!--            <img src="@/assets/gzf3.jpg" style="width: 100%">-->
@@ -28,7 +28,7 @@
             <img src="@/assets/gzf5.jpg" style="width: 100%">
           </el-carousel-item>
           <el-carousel-item>
-            <img src="@/assets/gzf6.jpg" style="width: 100%">
+            <img src="@/assets/gzf2.jpg" style="width: 120%">
           </el-carousel-item>
           <el-carousel-item>
             <img src="@/assets/gzf7.jpg" style="width: 100%">

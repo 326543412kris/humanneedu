@@ -1,5 +1,5 @@
 <template>
-  <div>
+  <div style="z-index: -10;">
     <el-container class="content">
       <el-header style="font-size: xx-large;margin-top: 30px">{{ $t("content.children.gardenTitle1") }}</el-header>
       <el-main>
@@ -7,14 +7,14 @@
         <p class="text">{{ $t("content.children.garden11") }}</p>
         <p class="text">{{ $t("content.children.garden12") }}</p>
         <p class="text">{{ $t("content.children.garden13") }}</p>
-        <div class="block" style="width: 100%;">
+        <div class="block" style="width: 80%;z-index: -2;">
           <span class="demonstration"></span>
-          <el-carousel height="800px" trigger="click" arrow="always">
-            <el-carousel-item>
-              <img src="@/assets/garden1.jpg" style="width: 100%">
-            </el-carousel-item>
+          <el-carousel height="500px" trigger="click" arrow="always" >
             <el-carousel-item>
               <img src="@/assets/garden5.jpg" style="width: 100%">
+            </el-carousel-item>
+            <el-carousel-item>
+              <img src="@/assets/garden1.jpg" style="width: 100%">
             </el-carousel-item>
             <el-carousel-item>
               <img src="@/assets/garden2.jpg" style="width: 100%">
@@ -128,6 +128,10 @@
     padding-left: 40px;
     font-family: "Microsoft YaHei", serif;
   }
+  .block {
+    z-index: -5;
+    margin: auto;
+  }
 
   .content {
     color: black;
@@ -137,10 +141,11 @@
     background-color: #efefef;
     margin: 50px auto;
     width: 70%;
-    z-index: -2;
+    z-index: -10;
     border-radius: 10px;
     box-shadow: 10px 10px 10px 10px #ccc;
   }
+
   .el-carousel__item h3 {
     color: #475669;
     font-size: 14px;
