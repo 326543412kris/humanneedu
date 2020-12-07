@@ -6,7 +6,7 @@
         <img v-else src="../../src/assets/logo.png" style="float: left;height: 100%;">
       </div>
       <div style="width: 60%;float: left;font-size: 22px;overflow: auto;height: 82px;padding-left: 10%" >
-        <div style=">
+        <div style="white-space: nowrap;">
           <el-menu router class="el-menu-demo" style="float: left;"
                    active-text-color="#48b78f"
                    :default-active="activeIndex" mode="horizontal" @select="handleSelect">
